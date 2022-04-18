@@ -1,0 +1,100 @@
+
+\documentclass{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%TCIDATA{OutputFilter=LATEX.DLL}
+%TCIDATA{Version=5.50.0.2953}
+%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
+%TCIDATA{BibliographyScheme=Manual}
+%TCIDATA{Created=Thursday, May 13, 2021 22:29:27}
+%TCIDATA{LastRevised=Thursday, May 13, 2021 22:31:00}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+%TCIDATA{<META NAME="DocumentShell" CONTENT="Scientific Notebook\Blank Document">}
+%TCIDATA{CSTFile=Math with theorems suppressed.cst}
+%TCIDATA{PageSetup=72,72,72,72,0}
+%TCIDATA{AllPages=
+%F=36,\PARA{038<p type="texpara" tag="Body Text" >\hfill \thepage}
+%}
+
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newenvironment{proof}[1][Proof]{\noindent\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
+\input{tcilatex}
+
+\begin{document}
+
+
+transpose: $\left[ 
+\begin{array}{ccc}
+-\gamma _{2}l_{2}\left( \alpha _{1}\cos \alpha _{2}\sin \alpha _{1}+\dot{%
+\alpha}_{2}\cos \alpha _{1}\sin \alpha _{2}\right)  & \gamma _{2}l_{2}\left( 
+\dot{\alpha}_{1}\cos \alpha _{1}\cos \alpha _{2}-\dot{\alpha}_{2}\sin \alpha
+_{1}\sin \alpha _{2}\right)  & \dot{\alpha}_{2}\gamma _{2}l_{2}\cos \alpha
+_{2}%
+\end{array}%
+\right] \allowbreak \ast $ $\left[ 
+\begin{array}{c}
+\gamma _{2}l_{2}\left( -\cos (\alpha _{2})\sin (\alpha _{1})\dot{\alpha}%
+_{1}-\sin (\alpha _{2})\cos (\alpha _{1})\dot{\alpha}_{2}\right)  \\ 
+\gamma _{2}l_{2}\left( \cos (\alpha _{2})\cos (\alpha _{1})\dot{\alpha}%
+_{1}-\sin (\alpha _{2})\sin (\alpha _{1})\dot{\alpha}_{2}\right)  \\ 
+\gamma _{2}l_{2}\cos (\alpha _{2})\dot{\alpha}_{2}%
+\end{array}%
+\right] =\allowbreak $%
+\[
+\begin{array}{c}
+\gamma _{2}^{2}l_{2}^{2}\left( \dot{\alpha}_{1}\cos \alpha _{2}\sin \alpha
+_{1}+\dot{\alpha}_{2}\cos \alpha _{1}\sin \alpha _{2}\right) ^{2}+\gamma
+_{2}^{2}l_{2}^{2}\left( \dot{\alpha}_{1}\cos \alpha _{1}\cos \alpha _{2}-%
+\dot{\alpha}_{2}\sin \alpha _{1}\sin \alpha _{2}\right) ^{2}+\dot{\alpha}%
+_{2}^{2}\gamma _{2}^{2}l_{2}^{2}\cos ^{2}\alpha _{2}\allowbreak  \\ 
+=\gamma _{2}^{2}l_{2}^{2}\left( \dot{\alpha}_{1}^{2}\sin ^{2}\alpha _{1}\cos
+^{2}\alpha _{2}+2\dot{\alpha}_{1}\dot{\alpha}_{2}\cos \alpha _{1}\cos \alpha
+_{2}\sin \alpha _{1}\sin \alpha _{2}+\dot{\alpha}_{2}^{2}\cos ^{2}\alpha
+_{1}\sin ^{2}\alpha _{2}\right)  \\ 
++\gamma _{2}^{2}l_{2}^{2}\left( \dot{\alpha}_{1}^{2}\cos ^{2}\alpha _{1}\cos
+^{2}\alpha _{2}-2\dot{\alpha}_{1}\dot{\alpha}_{2}\cos \alpha _{1}\cos \alpha
+_{2}\sin \alpha _{1}\sin \alpha _{2}+\dot{\alpha}_{2}^{2}\sin ^{2}\alpha
+_{1}\sin ^{2}\alpha _{2}\right)  \\ 
++\dot{\alpha}_{2}^{2}\gamma _{2}^{2}l_{2}^{2}\cos ^{2}\alpha _{2} \\ 
+=\gamma _{2}^{2}l_{2}^{2}\left( \dot{\alpha}_{1}^{2}\cos ^{2}\alpha _{2}+%
+\dot{\alpha}_{2}^{2}\sin ^{2}\alpha _{2}\right) +\dot{\alpha}_{2}^{2}\gamma
+_{2}^{2}l_{2}^{2}\cos ^{2}\alpha _{2}%
+\end{array}%
+\]
+
+\bigskip For $\vec{v}_{3}$
+
+$\left[ 
+\begin{array}{c}
+-\gamma _{3}l_{3}\left[ \cos (\alpha _{2}+\alpha _{3})\sin (\alpha _{1})\dot{%
+\alpha}_{1}+\cos (\alpha _{1})\sin (\alpha _{2}+\alpha _{3})(\dot{\alpha}%
+_{2}+\dot{\alpha}_{3})\right]  \\ 
+\gamma _{3}l_{3}\left( \cos (\alpha _{2}+\alpha _{3})\cos (\alpha _{1})\dot{%
+\alpha}_{1}-\sin (\alpha _{1})\sin (\alpha _{2}+\alpha _{3})(\dot{\alpha}%
+_{2}+\dot{\alpha}_{3})\right)  \\ 
+\gamma _{3}l_{3}\cos (\alpha _{2}+\alpha _{3})(\dot{\alpha}_{2}+\dot{\alpha}%
+_{3})+l_{2}\cos (\alpha _{2})\dot{\alpha}_{2}%
+\end{array}%
+\right] $
+
+\end{document}

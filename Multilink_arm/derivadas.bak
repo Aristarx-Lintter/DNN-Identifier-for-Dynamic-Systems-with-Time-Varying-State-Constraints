@@ -1,0 +1,1124 @@
+
+\documentclass{article}
+\usepackage{amssymb}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amsmath}
+
+\setcounter{MaxMatrixCols}{10}
+%TCIDATA{OutputFilter=LATEX.DLL}
+%TCIDATA{Version=5.50.0.2953}
+%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
+%TCIDATA{BibliographyScheme=Manual}
+%TCIDATA{Created=Monday, April 12, 2021 11:41:26}
+%TCIDATA{LastRevised=Thursday, May 06, 2021 16:16:14}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+%TCIDATA{<META NAME="DocumentShell" CONTENT="Standard LaTeX\Blank - Standard LaTeX Article">}
+%TCIDATA{CSTFile=40 LaTeX article.cst}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newenvironment{proof}[1][Proof]{\noindent\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
+\input{tcilatex}
+\begin{document}
+
+
+\bigskip 
+
+\begin{equation*}
+\begin{array}{c}
+z=\left[ 
+\begin{array}{c}
+X+d_{0}\cos \theta  \\ 
+Y+d_{0}\sin \theta 
+\end{array}%
+\right]  \\ 
+\\ 
+\dot{z}=\left[ 
+\begin{array}{c}
+\dot{X}-d_{0}\sin \theta \dot{\theta} \\ 
+\dot{Y}+d_{0}\cos \theta \dot{\theta}%
+\end{array}%
+\right]  \\ 
+=%
+\begin{array}{cc}
+\cos \theta  & -\sin \theta  \\ 
+\sin \theta  & \cos \theta 
+\end{array}%
+\begin{array}{c}
+\dot{x} \\ 
+\dot{y}%
+\end{array}%
++%
+\begin{array}{c}
+-d_{0}\sin \theta \left( -\frac{1}{d_{0}}\right) \dot{y} \\ 
+d_{0}\cos \theta \left( -\frac{1}{d_{0}}\right) \dot{y}%
+\end{array}
+\\ 
+=\left[ 
+\begin{array}{cc}
+\cos \theta  & -\sin \theta  \\ 
+\sin \theta  & \cos \theta 
+\end{array}%
+\right] \left[ 
+\begin{array}{c}
+\dot{x} \\ 
+\dot{y}%
+\end{array}%
+\right] +\left[ 
+\begin{array}{cc}
+0 & \sin \theta  \\ 
+0 & -\cos \theta 
+\end{array}%
+\right] \left[ 
+\begin{array}{c}
+\dot{x} \\ 
+\dot{y}%
+\end{array}%
+\right]  \\ 
+=\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \dot{x}=\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \eta _{1} \\ 
+\\ 
+\ddot{z}=\left[ 
+\begin{array}{c}
+-\sin \theta  \\ 
+\cos \theta 
+\end{array}%
+\right] \dot{\theta}\dot{x}+\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \ddot{x} \\ 
+=\left[ 
+\begin{array}{c}
+-\sin \theta  \\ 
+\cos \theta 
+\end{array}%
+\right] \left( -\frac{1}{d_{0}}\right) \dot{y}\dot{x}+\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \ddot{x} \\ 
+=\left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \dfrac{\eta _{2}}{d_{0}}\eta _{1}+\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \dot{\eta}_{1} \\ 
+\ddot{z}=\left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \dfrac{\eta _{2}}{d_{0}}\eta _{1}+\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] u_{1} \\ 
+\\ 
+\dddot{z}=\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \dot{\theta}\dfrac{\eta _{2}}{d_{0}}\eta _{1}+\left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \dfrac{\dot{\eta}_{2}}{d_{0}}\eta _{1}+\left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \dfrac{\eta _{2}}{d_{0}}\dot{\eta}_{1}+\left[ 
+\begin{array}{c}
+-\sin \theta  \\ 
+\cos \theta 
+\end{array}%
+\right] \dot{\theta}u_{1}+\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \dot{u}_{1} \\ 
+=\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \left( -\frac{1}{d_{0}}\right) \eta _{2}\dfrac{\eta _{2}}{d_{0}}\eta
+_{1}+\left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \dfrac{u_{2}}{d_{0}}\eta _{1}+\left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \dfrac{\eta _{2}}{d_{0}}u_{1}+\left[ 
+\begin{array}{c}
+-\sin \theta  \\ 
+\cos \theta 
+\end{array}%
+\right] \left( -\frac{1}{d_{0}}\right) \eta _{2}u_{1}+\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \dot{u}_{1} \\ 
+=-\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \dfrac{\eta _{2}^{2}}{d_{0}^{2}}\eta _{1}+\left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \dfrac{v_{2}}{d_{0}}\eta _{1}+\left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \dfrac{\eta _{2}}{d_{0}}u_{1}+\left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \frac{1}{d_{0}}\eta _{2}u_{1}+\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] v_{1} \\ 
+=\left[ 
+\begin{array}{cc}
+\cos \theta  & \dfrac{\eta _{1}}{d_{0}}\sin \theta  \\ 
+\sin \theta  & -\dfrac{\eta _{1}}{d_{0}}\cos \theta 
+\end{array}%
+\right] \left[ 
+\begin{array}{c}
+v_{1} \\ 
+v_{2}%
+\end{array}%
+\right] -\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \dfrac{\eta _{2}^{2}}{d_{0}^{2}}\eta _{1}+\left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \dfrac{2\eta _{2}}{d_{0}}u_{1}%
+\end{array}%
+\end{equation*}
+
+\bigskip 
+
+\bigskip 
+
+\bigskip 
+
+For the vector  $q=\left[ 
+\begin{array}{ccc}
+X & Y & \theta 
+\end{array}%
+\right] ^{\intercal }$ the dynamic is given by 
+\begin{equation*}
+M\ddot{q}+C(q,\dot{q})+\xi (q,t)=E(q)\tau 
+\end{equation*}%
+or%
+\begin{equation*}
+\ddot{q}=M^{-1}\left( E(q)\tau -C(q,\dot{q})-\xi (q,t)\right) 
+\end{equation*}%
+where 
+\begin{equation*}
+M=\left[ 
+\begin{array}{ccc}
+m & 0 & 0 \\ 
+0 & m & 0 \\ 
+0 & 0 & I%
+\end{array}%
+\right] 
+\end{equation*}%
+which velocity considering the pseudo velocity $\eta $ is given by%
+\begin{equation*}
+\dot{q}=S(q)\eta 
+\end{equation*}%
+where 
+\begin{equation*}
+S(q)=\left[ 
+\begin{array}{cc}
+\cos \theta  & -\sin \theta  \\ 
+\sin \theta  & \cos \theta  \\ 
+0 & -\frac{1}{d_{0}}%
+\end{array}%
+\right] 
+\end{equation*}%
+The complete dynamic \ is given by 
+\begin{equation*}
+\begin{array}{c}
+\dot{q}=S(q)\eta  \\ 
+\dot{\eta}=\left( S^{\intercal }MS\right) ^{-1}S^{\intercal }\left( E(q)\tau
+-M\dot{S}(q)\eta -C(q,\dot{q})-\xi (q,t)\right) 
+\end{array}%
+\end{equation*}%
+where \ the \ $\tau $ \ is given by 
+\begin{equation*}
+\tau =\left( S^{\intercal }E(q)\right) ^{-1}(S^{\intercal }M\dot{S}(q)\eta
++S^{\intercal }C(q,\dot{q})+S^{\intercal }MSu)
+\end{equation*}%
+in consequence the dynamic \ is given by 
+\begin{equation*}
+\begin{array}{c}
+\dot{q}=S(q)\eta  \\ 
+\dot{\eta}=u-\left( S^{\intercal }MS\right) ^{-1}S^{\intercal }\xi (q,t)%
+\end{array}%
+\end{equation*}%
+$\left[ 
+\begin{array}{ccc}
+\cos \theta  & \sin \theta  & 0 \\ 
+-\sin \theta  & \cos \theta  & -\frac{1}{d_{0}}%
+\end{array}%
+\right] \ast \left[ 
+\begin{array}{ccc}
+m & 0 & 0 \\ 
+0 & m & 0 \\ 
+0 & 0 & I%
+\end{array}%
+\right] \ast \left[ 
+\begin{array}{cc}
+\cos \theta  & -\sin \theta  \\ 
+\sin \theta  & \cos \theta  \\ 
+0 & -\frac{1}{d_{0}}%
+\end{array}%
+\right] =\allowbreak \left[ 
+\begin{array}{cc}
+m\cos ^{2}\theta +m\sin ^{2}\theta  & 0 \\ 
+0 & m\cos ^{2}\theta +m\sin ^{2}\theta +\frac{I}{d_{0}^{2}}%
+\end{array}%
+\right] \allowbreak $, inverse: $\left[ 
+\begin{array}{cc}
+\frac{1}{m\cos ^{2}\theta +m\sin ^{2}\theta } & 0 \\ 
+0 & \frac{d_{0}^{2}}{md_{0}^{2}\cos ^{2}\theta +md_{0}^{2}\sin ^{2}\theta +I}%
+\end{array}%
+\right] \allowbreak $ *$\left[ 
+\begin{array}{ccc}
+\cos \theta  & \sin \theta  & 0 \\ 
+-\sin \theta  & \cos \theta  & -\frac{1}{d_{0}}%
+\end{array}%
+\right] =\allowbreak \left[ 
+\begin{array}{ccc}
+\frac{\cos \theta }{m\cos ^{2}\theta +m\sin ^{2}\theta } & \frac{\sin \theta 
+}{m\cos ^{2}\theta +m\sin ^{2}\theta } & 0 \\ 
+-\frac{d_{0}^{2}\sin \theta }{md_{0}^{2}\cos ^{2}\theta +md_{0}^{2}\sin
+^{2}\theta +I} & \frac{d_{0}^{2}\cos \theta }{md_{0}^{2}\cos ^{2}\theta
++md_{0}^{2}\sin ^{2}\theta +I} & -\frac{d_{0}}{md_{0}^{2}\cos ^{2}\theta
++md_{0}^{2}\sin ^{2}\theta +I}%
+\end{array}%
+\right] \allowbreak $
+
+which \ can be express for each component as 
+\begin{equation*}
+\begin{array}{c}
+\dot{X}=\cos \theta \eta _{1}-\sin \theta \eta _{2} \\ 
+\dot{Y}=\sin \theta \eta _{1}+\cos \theta \eta _{2} \\ 
+\dot{\theta}=-\dfrac{\eta _{2}}{d_{0}} \\ 
+\dot{\eta}_{1}=u_{1}-\dfrac{\cos \theta }{m\left( \cos ^{2}\theta +\sin
+^{2}\theta \right) }\xi _{1}-\dfrac{\sin \theta }{m\left( \cos ^{2}\theta
++\sin ^{2}\theta \right) }\xi _{2} \\ 
+\dot{\eta}_{2}=u_{2}+\frac{d_{0}^{2}\sin \theta }{md_{0}^{2}\left( \cos
+^{2}\theta +\sin ^{2}\theta \right) +I}\xi _{1}-\frac{d_{0}^{2}\cos \theta }{%
+md_{0}^{2}\left( \cos ^{2}\theta +\sin ^{2}\theta \right) +I}\xi _{2}+\frac{%
+d_{0}}{md_{0}^{2}\left( \cos ^{2}\theta +\sin ^{2}\theta \right) +I}\xi _{3}%
+\end{array}%
+\end{equation*}
+
+Now given 
+
+\begin{equation*}
+\begin{array}{c}
+z=\left[ 
+\begin{array}{c}
+X+d_{0}\cos \theta  \\ 
+Y+d_{0}\sin \theta 
+\end{array}%
+\right]  \\ 
+\\ 
+\dot{z}=\left[ 
+\begin{array}{c}
+\dot{X}-d_{0}\sin \theta \dot{\theta} \\ 
+\dot{Y}+d_{0}\cos \theta \dot{\theta}%
+\end{array}%
+\right]  \\ 
+=%
+\begin{array}{cc}
+\cos \theta  & -\sin \theta  \\ 
+\sin \theta  & \cos \theta 
+\end{array}%
+\begin{array}{c}
+\dot{x} \\ 
+\dot{y}%
+\end{array}%
++%
+\begin{array}{c}
+-d_{0}\sin \theta \left( -\frac{1}{d_{0}}\right) \dot{y} \\ 
+d_{0}\cos \theta \left( -\frac{1}{d_{0}}\right) \dot{y}%
+\end{array}
+\\ 
+=\left( \left[ 
+\begin{array}{cc}
+\cos \theta  & -\sin \theta  \\ 
+\sin \theta  & \cos \theta 
+\end{array}%
+\right] +\left[ 
+\begin{array}{cc}
+0 & \sin \theta  \\ 
+0 & -\cos \theta 
+\end{array}%
+\right] \right) \left[ 
+\begin{array}{c}
+\dot{x} \\ 
+\dot{y}%
+\end{array}%
+\right]  \\ 
+=\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \dot{x} \\ 
+=\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \eta _{1} \\ 
+\\ 
+\ddot{z}=\left[ 
+\begin{array}{c}
+-\sin \theta  \\ 
+\cos \theta 
+\end{array}%
+\right] \dot{\theta}\dot{x}+\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \ddot{x} \\ 
+=\left[ 
+\begin{array}{c}
+-\sin \theta  \\ 
+\cos \theta 
+\end{array}%
+\right] \left( -\dfrac{1}{d_{0}}\right) \dot{y}\dot{x}+\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \ddot{x} \\ 
+=\left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \dfrac{\eta _{2}}{d_{0}}\eta _{1}+\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \dot{\eta}_{1} \\ 
+\ddot{z}=\left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \dfrac{\eta _{2}}{d_{0}}\eta _{1}+\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \left( u_{1}-\dfrac{\cos \theta }{m\left( \cos ^{2}\theta +\sin
+^{2}\theta \right) }\xi _{1}-\dfrac{\sin \theta }{m\left( \cos ^{2}\theta
++\sin ^{2}\theta \right) }\xi _{2}\right)  \\ 
+\\ 
+\dddot{z}=\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \dot{\theta}\dfrac{\eta _{2}}{d_{0}}\eta _{1}+\left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \dfrac{\dot{\eta}_{2}}{d_{0}}\eta _{1}+\left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \dfrac{\eta _{2}}{d_{0}}\dot{\eta}_{1}+\left[ 
+\begin{array}{c}
+-\sin \theta  \\ 
+\cos \theta 
+\end{array}%
+\right] \dot{\theta}u_{1} \\ 
++\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \left( \dot{u}_{1}-\frac{d}{dt}\dfrac{\cos \theta }{m\left( \cos
+^{2}\theta +\sin ^{2}\theta \right) }\xi _{1}-\frac{d}{dt}\dfrac{\sin \theta 
+}{m\left( \cos ^{2}\theta +\sin ^{2}\theta \right) }\xi _{2}\right) 
+\end{array}%
+\end{equation*}%
+\begin{equation*}
+\begin{array}{c}
+\frac{d}{dt}\dfrac{\cos \theta }{m\left( \cos ^{2}\theta +\sin ^{2}\theta
+\right) }\xi _{1}=\frac{d}{dt}\left( \dfrac{\cos \theta }{m\left( \cos
+^{2}\theta +\sin ^{2}\theta \right) }\right) \xi _{1}+\dfrac{\cos \theta }{%
+m\left( \cos ^{2}\theta +\sin ^{2}\theta \right) }\dot{\xi}_{1} \\ 
+=\left( -\dfrac{\sin \theta }{m\left( \cos ^{2}\theta +\sin ^{2}\theta
+\right) }\dot{\theta}-\dfrac{\cos \theta }{m^{2}\left( \cos ^{2}\theta +\sin
+^{2}\theta \right) ^{2}}2m\left( -\cos \theta \sin \theta +\sin \theta \cos
+\theta \right) \dot{\theta}\right) \xi _{1}+\dfrac{\cos \theta }{m\left(
+\cos ^{2}\theta +\sin ^{2}\theta \right) }\dot{\xi}_{1} \\ 
+=-\dfrac{\sin \theta }{m\left( \cos ^{2}\theta +\sin ^{2}\theta \right) }%
+\dot{\theta}\xi _{1}+\dfrac{\cos \theta }{m\left( \cos ^{2}\theta +\sin
+^{2}\theta \right) }\dot{\xi}_{1} \\ 
+=-\dfrac{\sin \theta }{m\left( \cos ^{2}\theta +\sin ^{2}\theta \right) }%
+\left( -\dfrac{1}{d_{0}}\right) \dot{y}\xi _{1}+\dfrac{\cos \theta }{m\left(
+\cos ^{2}\theta +\sin ^{2}\theta \right) }\dot{\xi}_{1} \\ 
+=\dfrac{\sin \theta }{d_{0}m\left( \cos ^{2}\theta +\sin ^{2}\theta \right) }%
+\eta _{2}\xi _{1}+\dfrac{\cos \theta }{m\left( \cos ^{2}\theta +\sin
+^{2}\theta \right) }\dot{\xi}_{1}%
+\end{array}%
+\end{equation*}%
+\begin{equation*}
+\begin{array}{c}
+\frac{d}{dt}\dfrac{\sin \theta }{m\left( \cos ^{2}\theta +\sin ^{2}\theta
+\right) }\xi _{2}=\frac{d}{dt}\left( \dfrac{\sin \theta }{m\left( \cos
+^{2}\theta +\sin ^{2}\theta \right) }\right) \xi _{2}+\dfrac{\sin \theta }{%
+m\left( \cos ^{2}\theta +\sin ^{2}\theta \right) }\dot{\xi}_{2} \\ 
+=\left( \dfrac{\cos \theta }{m\left( \cos ^{2}\theta +\sin ^{2}\theta
+\right) }\dot{\theta}-\dfrac{\sin \theta }{m^{2}\left( \cos ^{2}\theta +\sin
+^{2}\theta \right) ^{2}}2m^{2}\left( -\cos \theta \sin \theta +\sin \theta
+\cos \theta \right) \dot{\theta}\right) \xi _{2}+\dfrac{\sin \theta }{%
+m\left( \cos ^{2}\theta +\sin ^{2}\theta \right) }\dot{\xi}_{2} \\ 
+=\dfrac{\cos \theta }{m\left( \cos ^{2}\theta +\sin ^{2}\theta \right) }\dot{%
+\theta}\xi _{2}+\dfrac{\sin \theta }{m\left( \cos ^{2}\theta +\sin
+^{2}\theta \right) }\dot{\xi}_{2} \\ 
+=\dfrac{\cos \theta }{m\left( \cos ^{2}\theta +\sin ^{2}\theta \right) }%
+\left( -\dfrac{1}{d_{0}}\right) \dot{y}\xi _{2}+\dfrac{\sin \theta }{m\left(
+\cos ^{2}\theta +\sin ^{2}\theta \right) }\dot{\xi}_{2} \\ 
+=-\dfrac{\cos \theta }{d_{0}m\left( \cos ^{2}\theta +\sin ^{2}\theta \right) 
+}\dot{y}\xi _{2}+\dfrac{\sin \theta }{m\left( \cos ^{2}\theta +\sin
+^{2}\theta \right) }\dot{\xi}_{2} \\ 
+=-\dfrac{\cos \theta }{d_{0}m\left( \cos ^{2}\theta +\sin ^{2}\theta \right) 
+}\eta _{2}\xi _{2}+\dfrac{\sin \theta }{m\left( \cos ^{2}\theta +\sin
+^{2}\theta \right) }\dot{\xi}_{2}%
+\end{array}%
+\end{equation*}%
+Continue with the derivative we obtain 
+\begin{equation*}
+\begin{array}{c}
+\dddot{z}=\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \dot{\theta}\dfrac{\eta _{2}}{d_{0}}\eta _{1}+\left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \dfrac{\dot{\eta}_{2}}{d_{0}}\eta _{1}+\left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \dfrac{\eta _{2}}{d_{0}}\dot{\eta}_{1}+\left[ 
+\begin{array}{c}
+-\sin \theta  \\ 
+\cos \theta 
+\end{array}%
+\right] \dot{\theta}u_{1} \\ 
++\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \left( \dot{u}_{1}-\frac{d}{dt}\dfrac{\cos \theta }{m\left( \cos
+^{2}\theta +\sin ^{2}\theta \right) }\xi _{1}-\frac{d}{dt}\dfrac{\sin \theta 
+}{m\left( \cos ^{2}\theta +\sin ^{2}\theta \right) }\xi _{2}\right)  \\ 
+\\ 
+\dddot{z}=\left[ \left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \dfrac{\eta _{2}}{d_{0}}\eta _{1}+\left[ 
+\begin{array}{c}
+-\sin \theta  \\ 
+\cos \theta 
+\end{array}%
+\right] u_{1}\right] \left( -\frac{1}{d_{0}}\right) \eta _{2}+\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \dot{u}_{1} \\ 
++\left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \dfrac{1}{d_{0}}\eta _{1}\left( u_{2}+\frac{d_{0}^{2}\sin \theta }{%
+md_{0}^{2}\left( \cos ^{2}\theta +\sin ^{2}\theta \right) +I}\xi _{1}-\frac{%
+d_{0}^{2}\cos \theta }{md_{0}^{2}\left( \cos ^{2}\theta +\sin ^{2}\theta
+\right) +I}\xi _{2}+\frac{d_{0}}{md_{0}^{2}\left( \cos ^{2}\theta +\sin
+^{2}\theta \right) +I}\xi _{3}\right)  \\ 
++\left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \dfrac{\eta _{2}}{d_{0}}\left( u_{1}-\dfrac{\cos \theta }{m\left(
+\cos ^{2}\theta +\sin ^{2}\theta \right) }\xi _{1}-\dfrac{\sin \theta }{%
+m\left( \cos ^{2}\theta +\sin ^{2}\theta \right) }\xi _{2}\right)  \\ 
+-\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \left( \dfrac{\sin \theta }{d_{0}m\left( \cos ^{2}\theta +\sin
+^{2}\theta \right) }\eta _{2}\xi _{1}+\dfrac{\cos \theta }{m\left( \cos
+^{2}\theta +\sin ^{2}\theta \right) }\dot{\xi}_{1}\right)  \\ 
++\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \left( \dfrac{\cos \theta }{d_{0}m\left( \cos ^{2}\theta +\sin
+^{2}\theta \right) }\eta _{2}\xi _{2}-\dfrac{\sin \theta }{m\left( \cos
+^{2}\theta +\sin ^{2}\theta \right) }\dot{\xi}_{2}\right) 
+\end{array}%
+\end{equation*}
+
+\begin{equation*}
+\begin{array}{c}
+\dddot{z}=-\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \dfrac{\eta _{2}^{2}}{d_{0}^{2}}\eta _{1}+2\left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \dfrac{\eta _{2}}{d_{0}}u_{1}+\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \dot{u}_{1}+\left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \dfrac{\eta _{1}}{d_{0}}u_{2} \\ 
++\left[ \left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \left[ \dfrac{\eta _{1}d_{0}\sin \theta }{md_{0}^{2}\left( \cos
+^{2}\theta +\sin ^{2}\theta \right) +I}-\dfrac{\eta _{2}\cos \theta }{%
+d_{0}m\left( \cos ^{2}\theta +\sin ^{2}\theta \right) }\right] -\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \dfrac{\sin \theta }{d_{0}m\left( \cos ^{2}\theta +\sin ^{2}\theta
+\right) }\eta _{2}\right] \xi _{1} \\ 
+-\left[ \left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \left[ \dfrac{\eta _{1}d_{0}\cos \theta }{md_{0}^{2}\left( \cos
+^{2}\theta +\sin ^{2}\theta \right) +I}+\dfrac{\eta _{2}\sin \theta }{%
+d_{0}m\left( \cos ^{2}\theta +\sin ^{2}\theta \right) }\right] -\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \dfrac{\cos \theta }{d_{0}m\left( \cos ^{2}\theta +\sin ^{2}\theta
+\right) }\eta _{2}\right] \xi _{2} \\ 
++\left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \dfrac{1}{d_{0}}\eta _{1}\dfrac{d_{0}}{md_{0}^{2}\left( \cos
+^{2}\theta +\sin ^{2}\theta \right) +I}\xi _{3} \\ 
+-\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \dfrac{1}{m\left( \cos ^{2}\theta +\sin ^{2}\theta \right) }\left[
+\cos \theta \dot{\xi}_{1}-\sin \theta \dot{\xi}_{2}\right] 
+\end{array}%
+\end{equation*}%
+Given%
+\begin{equation*}
+\begin{array}{c}
+u_{1}=\zeta  \\ 
+\dot{\zeta}=v_{1} \\ 
+u_{2}=v_{2}%
+\end{array}%
+\end{equation*}%
+\begin{equation*}
+\begin{array}{c}
+\dddot{z}=-\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \dfrac{\eta _{2}^{2}}{d_{0}^{2}}\eta _{1}+2\left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \dfrac{\eta _{2}}{d_{0}}\zeta +\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] v_{1}+\left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \dfrac{\eta _{1}}{d_{0}}v_{2} \\ 
++\left[ \left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \left[ \dfrac{d_{0}\sin \theta }{md_{0}^{2}+I}\eta _{1}-\dfrac{\cos
+\theta }{d_{0}m}\eta _{2}\right] -\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \dfrac{\sin \theta }{d_{0}m}\eta _{2}\right] \xi _{1} \\ 
+-\left[ \left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \left[ \dfrac{d_{0}\cos \theta }{md_{0}^{2}+I}\eta _{1}+\dfrac{\sin
+\theta }{d_{0}m}\eta _{2}\right] -\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \dfrac{\cos \theta }{d_{0}m}\eta _{2}\right] \xi _{2} \\ 
++\left[ 
+\begin{array}{c}
+\sin \theta  \\ 
+-\cos \theta 
+\end{array}%
+\right] \dfrac{1}{d_{0}}\eta _{1}\dfrac{d_{0}}{md_{0}^{2}+I}\xi _{3} \\ 
+-\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \dfrac{1}{m}\left[ \cos \theta \dot{\xi}_{1}-\sin \theta \dot{\xi}%
+_{2}\right] 
+\end{array}%
+\end{equation*}%
+\begin{equation*}
+\begin{array}{c}
+\dddot{z}=\left[ 
+\begin{array}{cc}
+\cos \theta  & \dfrac{\eta _{1}}{d_{0}}\sin \theta  \\ 
+\sin \theta  & -\dfrac{\eta _{1}}{d_{0}}\cos \theta 
+\end{array}%
+\right] \left[ 
+\begin{array}{c}
+v_{1} \\ 
+v_{2}%
+\end{array}%
+\right] +\left[ 
+\begin{array}{cc}
+-\dfrac{\eta _{2}^{2}}{d_{0}^{2}}\cos \theta  & \dfrac{2}{d_{0}}\zeta \sin
+\theta  \\ 
+-\dfrac{\eta _{2}^{2}}{d_{0}^{2}}\sin \theta  & -\dfrac{2}{d_{0}}\zeta \cos
+\theta 
+\end{array}%
+\right] \left[ 
+\begin{array}{c}
+\eta _{1} \\ 
+\eta _{2}%
+\end{array}%
+\right]  \\ 
+\left( +\xi _{1}\left[ 
+\begin{array}{cc}
+\dfrac{d_{0}\sin ^{2}\theta }{md_{0}^{2}+I} & -2\dfrac{\cos \theta \sin
+\theta }{d_{0}m} \\ 
+-\dfrac{d_{0}\cos \theta \sin \theta }{md_{0}^{2}+I} & \dfrac{\cos
+^{2}\theta }{d_{0}m}-\dfrac{\sin ^{2}\theta }{d_{0}m}%
+\end{array}%
+\right] -\xi _{2}\left[ 
+\begin{array}{cc}
+\dfrac{d_{0}\cos \theta \sin \theta }{md_{0}^{2}+I} & \dfrac{\sin ^{2}\theta 
+}{d_{0}m}-\dfrac{\cos ^{2}\theta }{d_{0}m} \\ 
+-\dfrac{d_{0}\cos ^{2}\theta }{md_{0}^{2}+I} & -2\dfrac{\cos \theta \sin
+\theta }{d_{0}m}%
+\end{array}%
+\right] +\xi _{3}\left[ 
+\begin{array}{cc}
+\dfrac{1}{md_{0}^{2}+I}\sin \theta  & 0 \\ 
+-\dfrac{1}{md_{0}^{2}+I}\cos \theta  & 0%
+\end{array}%
+\right] \right) \left[ 
+\begin{array}{c}
+\eta _{1} \\ 
+\eta _{2}%
+\end{array}%
+\right]  \\ 
+-\left[ 
+\begin{array}{c}
+\cos \theta  \\ 
+\sin \theta 
+\end{array}%
+\right] \dfrac{1}{m}\left[ \cos \theta \dot{\xi}_{1}-\sin \theta \dot{\xi}%
+_{2}\right] 
+\end{array}%
+\end{equation*}%
+\begin{equation*}
+\begin{array}{c}
+\dddot{z}=\left[ 
+\begin{array}{cc}
+\cos \theta  & \dfrac{\eta _{1}}{d_{0}}\sin \theta  \\ 
+\sin \theta  & -\dfrac{\eta _{1}}{d_{0}}\cos \theta 
+\end{array}%
+\right] \left[ 
+\begin{array}{c}
+v_{1} \\ 
+v_{2}%
+\end{array}%
+\right] +\left[ 
+\begin{array}{cc}
+-\dfrac{\eta _{2}^{2}}{d_{0}^{2}}\cos \theta  & \dfrac{2}{d_{0}}\zeta \sin
+\theta  \\ 
+-\dfrac{\eta _{2}^{2}}{d_{0}^{2}}\sin \theta  & -\dfrac{2}{d_{0}}\zeta \cos
+\theta 
+\end{array}%
+\right] \left[ 
+\begin{array}{c}
+\eta _{1} \\ 
+\eta _{2}%
+\end{array}%
+\right]  \\ 
+\left[ 
+\begin{array}{ccc}
+\left[ 
+\begin{array}{cc}
+\dfrac{d_{0}\sin ^{2}\theta }{md_{0}^{2}+I} & -2\dfrac{\cos \theta \sin
+\theta }{d_{0}m} \\ 
+-\dfrac{d_{0}\cos \theta \sin \theta }{md_{0}^{2}+I} & \dfrac{\cos
+^{2}\theta }{d_{0}m}-\dfrac{\sin ^{2}\theta }{d_{0}m}%
+\end{array}%
+\right] \left[ 
+\begin{array}{c}
+\eta _{1} \\ 
+\eta _{2}%
+\end{array}%
+\right]  & -\left[ 
+\begin{array}{cc}
+\dfrac{d_{0}\cos \theta \sin \theta }{md_{0}^{2}+I} & \dfrac{\sin ^{2}\theta 
+}{d_{0}m}-\dfrac{\cos ^{2}\theta }{d_{0}m} \\ 
+-\dfrac{d_{0}\cos ^{2}\theta }{md_{0}^{2}+I} & -2\dfrac{\cos \theta \sin
+\theta }{d_{0}m}%
+\end{array}%
+\right] \left[ 
+\begin{array}{c}
+\eta _{1} \\ 
+\eta _{2}%
+\end{array}%
+\right]  & \left[ 
+\begin{array}{cc}
+\dfrac{1}{md_{0}^{2}+I}\sin \theta  & 0 \\ 
+-\dfrac{1}{md_{0}^{2}+I}\cos \theta  & 0%
+\end{array}%
+\right] \left[ 
+\begin{array}{c}
+\eta _{1} \\ 
+\eta _{2}%
+\end{array}%
+\right] 
+\end{array}%
+\right] \left[ 
+\begin{array}{c}
+\xi _{1} \\ 
+\xi _{2} \\ 
+\xi _{3}%
+\end{array}%
+\right]  \\ 
+-\dfrac{1}{m}\left[ 
+\begin{array}{ccc}
+\cos \theta \cos \theta  & -\cos \theta \sin \theta  & 0 \\ 
+\sin \theta \cos \theta  & -\sin \theta \sin \theta  & 0%
+\end{array}%
+\right] \left[ 
+\begin{array}{c}
+\dot{\xi}_{1} \\ 
+\dot{\xi}_{2} \\ 
+\dot{\xi}_{3}%
+\end{array}%
+\right] 
+\end{array}%
+\end{equation*}
+
+\bigskip 
+\begin{equation*}
+\dddot{z}=A\eta +Bv+H(\eta )\xi +G\dot{\xi}
+\end{equation*}%
+where 
+\begin{equation*}
+\begin{array}{c}
+A=\left[ 
+\begin{array}{cc}
+-\dfrac{\eta _{2}^{2}}{d_{0}^{2}}\cos \theta  & \dfrac{2}{d_{0}}\zeta \sin
+\theta  \\ 
+-\dfrac{\eta _{2}^{2}}{d_{0}^{2}}\sin \theta  & -\dfrac{2}{d_{0}}\zeta \cos
+\theta 
+\end{array}%
+\right]  \\ 
+B=\left[ 
+\begin{array}{cc}
+\cos \theta  & \dfrac{\eta _{1}}{d_{0}}\sin \theta  \\ 
+\sin \theta  & -\dfrac{\eta _{1}}{d_{0}}\cos \theta 
+\end{array}%
+\right]  \\ 
+H(\eta )=\left[ 
+\begin{array}{ccc}
+\left[ 
+\begin{array}{cc}
+\dfrac{d_{0}\sin ^{2}\theta }{md_{0}^{2}+I} & -2\dfrac{\cos \theta \sin
+\theta }{d_{0}m} \\ 
+-\dfrac{d_{0}\cos \theta \sin \theta }{md_{0}^{2}+I} & \dfrac{\cos
+^{2}\theta }{d_{0}m}-\dfrac{\sin ^{2}\theta }{d_{0}m}%
+\end{array}%
+\right] \left[ 
+\begin{array}{c}
+\eta _{1} \\ 
+\eta _{2}%
+\end{array}%
+\right]  & -\left[ 
+\begin{array}{cc}
+\dfrac{d_{0}\cos \theta \sin \theta }{md_{0}^{2}+I} & \dfrac{\sin ^{2}\theta 
+}{d_{0}m}-\dfrac{\cos ^{2}\theta }{d_{0}m} \\ 
+-\dfrac{d_{0}\cos ^{2}\theta }{md_{0}^{2}+I} & -2\dfrac{\cos \theta \sin
+\theta }{d_{0}m}%
+\end{array}%
+\right] \left[ 
+\begin{array}{c}
+\eta _{1} \\ 
+\eta _{2}%
+\end{array}%
+\right]  & \left[ 
+\begin{array}{cc}
+\dfrac{1}{md_{0}^{2}+I}\sin \theta  & 0 \\ 
+-\dfrac{1}{md_{0}^{2}+I}\cos \theta  & 0%
+\end{array}%
+\right] \left[ 
+\begin{array}{c}
+\eta _{1} \\ 
+\eta _{2}%
+\end{array}%
+\right] 
+\end{array}%
+\right]  \\ 
+G=-\dfrac{1}{m}\left[ 
+\begin{array}{ccc}
+\cos \theta \cos \theta  & -\cos \theta \sin \theta  & 0 \\ 
+\sin \theta \cos \theta  & -\sin \theta \sin \theta  & 0%
+\end{array}%
+\right] 
+\end{array}%
+\end{equation*}
+
+\bigskip 
+
+For the vector $q=\left[ 
+\begin{array}{ccc}
+X & Y & \theta 
+\end{array}%
+\right] ^{\intercal }$ the dynamic is given by 
+\begin{equation*}
+M\ddot{q}+C(q,\dot{q})+\xi (q,t)=E(q)\tau 
+\end{equation*}%
+which velocity considering the pseudo velocity $\eta $ is given by%
+\begin{equation*}
+\dot{q}=S(q)\eta 
+\end{equation*}%
+where 
+\begin{equation*}
+S(q)=\left[ 
+\begin{array}{cc}
+\cos \theta  & -\sin \theta  \\ 
+\sin \theta  & \cos \theta  \\ 
+0 & -\frac{1}{d_{0}}%
+\end{array}%
+\right] 
+\end{equation*}%
+The complete dynamic \ is given by 
+\begin{equation*}
+\begin{array}{c}
+\dot{q}=S(q)\eta  \\ 
+\dot{\eta}=\left( S^{\intercal }MS\right) ^{-1}S^{\intercal }\left( E(q)\tau
+-M\dot{S}(q)\eta -C(q,\dot{q})-\xi (q,t)\right) 
+\end{array}%
+\end{equation*}%
+where \ the \ $\tau $ \ is given by 
+\begin{equation*}
+\tau =\left( S^{\intercal }E(q)\right) ^{-1}(S^{\intercal }M\dot{S}(q)\eta
++S^{\intercal }C(q,\dot{q})+S^{\intercal }MSu)
+\end{equation*}%
+in consequence the dynamic \ is given by 
+\begin{equation*}
+\begin{array}{c}
+\dot{q}=S(q)\eta  \\ 
+\dot{\eta}=u-\left( S^{\intercal }MS\right) ^{-1}S^{\intercal }\xi (q,t)%
+\end{array}%
+\end{equation*}%
+Defining the vector 
+\begin{equation*}
+z=\left[ 
+\begin{array}{c}
+X+d_{0}\cos \theta  \\ 
+Y+d_{0}\sin \theta 
+\end{array}%
+\right] 
+\end{equation*}%
+which \ dynamic \ is given by 
+
+\begin{equation*}
+\dddot{z}=A\eta +Bv+H(\eta )\xi +G\dot{\xi}
+\end{equation*}%
+where 
+\begin{equation*}
+\begin{array}{c}
+A=\left[ 
+\begin{array}{cc}
+-\dfrac{\eta _{2}^{2}}{d_{0}^{2}}\cos \theta  & \dfrac{2}{d_{0}}\zeta \sin
+\theta  \\ 
+-\dfrac{\eta _{2}^{2}}{d_{0}^{2}}\sin \theta  & -\dfrac{2}{d_{0}}\zeta \cos
+\theta 
+\end{array}%
+\right]  \\ 
+B=\left[ 
+\begin{array}{cc}
+\cos \theta  & \dfrac{\eta _{1}}{d_{0}}\sin \theta  \\ 
+\sin \theta  & -\dfrac{\eta _{1}}{d_{0}}\cos \theta 
+\end{array}%
+\right]  \\ 
+H(\eta )=\left[ 
+\begin{array}{ccc}
+\left[ 
+\begin{array}{cc}
+\dfrac{d_{0}\sin ^{2}\theta }{md_{0}^{2}+I} & -2\dfrac{\cos \theta \sin
+\theta }{d_{0}m} \\ 
+-\dfrac{d_{0}\cos \theta \sin \theta }{md_{0}^{2}+I} & \dfrac{\cos
+^{2}\theta }{d_{0}m}-\dfrac{\sin ^{2}\theta }{d_{0}m}%
+\end{array}%
+\right] \left[ 
+\begin{array}{c}
+\eta _{1} \\ 
+\eta _{2}%
+\end{array}%
+\right]  & -\left[ 
+\begin{array}{cc}
+\dfrac{d_{0}\cos \theta \sin \theta }{md_{0}^{2}+I} & \dfrac{\sin ^{2}\theta 
+}{d_{0}m}-\dfrac{\cos ^{2}\theta }{d_{0}m} \\ 
+-\dfrac{d_{0}\cos ^{2}\theta }{md_{0}^{2}+I} & -2\dfrac{\cos \theta \sin
+\theta }{d_{0}m}%
+\end{array}%
+\right] \left[ 
+\begin{array}{c}
+\eta _{1} \\ 
+\eta _{2}%
+\end{array}%
+\right]  & \left[ 
+\begin{array}{cc}
+\dfrac{1}{md_{0}^{2}+I}\sin \theta  & 0 \\ 
+-\dfrac{1}{md_{0}^{2}+I}\cos \theta  & 0%
+\end{array}%
+\right] \left[ 
+\begin{array}{c}
+\eta _{1} \\ 
+\eta _{2}%
+\end{array}%
+\right] 
+\end{array}%
+\right]  \\ 
+G=-\dfrac{1}{m}\left[ 
+\begin{array}{ccc}
+\cos \theta \cos \theta  & -\cos \theta \sin \theta  & 0 \\ 
+\sin \theta \cos \theta  & -\sin \theta \sin \theta  & 0%
+\end{array}%
+\right] 
+\end{array}%
+\end{equation*}
+
+\end{document}

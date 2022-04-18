@@ -1,0 +1,685 @@
+
+\documentclass{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%TCIDATA{OutputFilter=LATEX.DLL}
+%TCIDATA{Version=5.50.0.2953}
+%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
+%TCIDATA{BibliographyScheme=Manual}
+%TCIDATA{Created=Monday, April 19, 2021 19:20:28}
+%TCIDATA{LastRevised=Thursday, May 13, 2021 14:00:38}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+%TCIDATA{<META NAME="DocumentShell" CONTENT="Scientific Notebook\Blank Document">}
+%TCIDATA{Language=American English}
+%TCIDATA{CSTFile=Math with theorems suppressed.cst}
+%TCIDATA{PageSetup=72,72,72,72,0}
+%TCIDATA{AllPages=
+%F=36,\PARA{038<p type="texpara" tag="Body Text" >\hfill \thepage}
+%}
+
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newenvironment{proof}[1][Proof]{\noindent\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
+\input{tcilatex}
+\begin{document}
+
+
+The generalized coordinates are 
+\[
+\begin{array}{c}
+q_{1} \\ 
+q_{2} \\ 
+q_{3} \\ 
+q_{4} \\ 
+q_{5} \\ 
+q_{6}%
+\end{array}%
+\]%
+\FRAME{fhFU}{7.7029in}{4.3509in}{0pt}{\Qcb{FANUC arm of six degree of freedom%
+}}{\Qlb{brazo}}{rend_grados_3.png}{\special{language "Scientific Word";type
+"GRAPHIC";maintain-aspect-ratio TRUE;display "ICON";valid_file "F";width
+7.7029in;height 4.3509in;depth 0pt;original-width 12.8001in;original-height
+7.1996in;cropleft "0";croptop "1";cropright "1";cropbottom "0";filename
+'rend_grados_3.png';file-properties "XNPEU";}}
+
+Consider that eachsection in the robotic arm has the following inertia:
+
+\bigskip *****Figuras de cada secci\'{o}n\FRAME{fhFU}{5.047in}{2.8504in}{0pt%
+}{\Qcb{q1}}{\Qlb{q1}}{q1_rend_1.png}{\special{language "Scientific
+Word";type "GRAPHIC";maintain-aspect-ratio TRUE;display "ICON";valid_file
+"F";width 5.047in;height 2.8504in;depth 0pt;original-width
+12.8001in;original-height 7.1996in;cropleft "0";croptop "1";cropright
+"1";cropbottom "0";filename 'q1_rend_1.png';file-properties "XNPEU";}}\FRAME{%
+fhFU}{5.047in}{2.8504in}{0pt}{\Qcb{q2}}{\Qlb{q2}}{q2_rend_1.png}{\special%
+{language "Scientific Word";type "GRAPHIC";maintain-aspect-ratio
+TRUE;display "ICON";valid_file "F";width 5.047in;height 2.8504in;depth
+0pt;original-width 12.8001in;original-height 7.1996in;cropleft "0";croptop
+"1";cropright "1";cropbottom "0";filename 'q2_rend_1.png';file-properties
+"XNPEU";}}\FRAME{fhFU}{5.047in}{2.8504in}{0pt}{\Qcb{q3}}{\Qlb{q3}}{%
+q3_rend_1.png}{\special{language "Scientific Word";type
+"GRAPHIC";maintain-aspect-ratio TRUE;display "ICON";valid_file "F";width
+5.047in;height 2.8504in;depth 0pt;original-width 12.8001in;original-height
+7.1996in;cropleft "0";croptop "1";cropright "1";cropbottom "0";filename
+'q3_rend_1.png';file-properties "XNPEU";}}\FRAME{fhFU}{5.047in}{2.8504in}{0pt%
+}{\Qcb{q4}}{\Qlb{q4}}{q4_rend_1.png}{\special{language "Scientific
+Word";type "GRAPHIC";maintain-aspect-ratio TRUE;display "ICON";valid_file
+"F";width 5.047in;height 2.8504in;depth 0pt;original-width
+12.8001in;original-height 7.1996in;cropleft "0";croptop "1";cropright
+"1";cropbottom "0";filename 'q4_rend_1.png';file-properties "XNPEU";}}\FRAME{%
+fhFU}{5.047in}{2.8504in}{0pt}{\Qcb{q5}}{\Qlb{q5}}{q5_rend_1.png}{\special%
+{language "Scientific Word";type "GRAPHIC";maintain-aspect-ratio
+TRUE;display "ICON";valid_file "F";width 5.047in;height 2.8504in;depth
+0pt;original-width 12.8001in;original-height 7.1996in;cropleft "0";croptop
+"1";cropright "1";cropbottom "0";filename 'q5_rend_1.png';file-properties
+"XNPEU";}}\FRAME{fhFU}{5.047in}{2.8504in}{0pt}{\Qcb{q6}}{\Qlb{q6}}{%
+q6_rend_1.png}{\special{language "Scientific Word";type
+"GRAPHIC";maintain-aspect-ratio TRUE;display "ICON";valid_file "F";width
+5.047in;height 2.8504in;depth 0pt;original-width 12.8001in;original-height
+7.1996in;cropleft "0";croptop "1";cropright "1";cropbottom "0";filename
+'q6_rend_1.png';file-properties "XNPEU";}}
+
+The mases of the section s in the the robotic arm are given by: $%
+m_{1},....,m_{6}.$
+
+\qquad 
+\[
+\begin{array}{cccccccccc}
+Section & mass & \text{center of mass} &  &  &  &  &  &  &  \\ 
+1 &  &  &  &  &  &  &  &  &  \\ 
+2 & 441129.76g &  &  &  &  &  &  &  &  \\ 
+3 &  &  &  &  &  &  &  &  &  \\ 
+4 &  &  &  &  &  &  &  &  &  \\ 
+5 &  &  &  &  &  &  &  &  &  \\ 
+6 &  &  &  &  &  &  &  &  & 
+\end{array}%
+\]%
+Denavit-Hartenberg 
+\[
+\begin{tabular}{llll}
+$\theta _{i}$ & $d_{i}$ & $a_{i}$ & $\alpha _{i}$ \\ 
+$\theta _{1}=-q_{1}$ & $d_{1}=1134$ & $a_{1}=-658.07$ & $\alpha _{i}=-\dfrac{%
+\pi }{2}$ \\ 
+$\theta _{2}=q_{2}$ & $d_{2}=0$ & $a_{2}=-1689.31$ & $\alpha _{i}=0$ \\ 
+$\theta _{3}=\dfrac{\pi }{2}+q_{3}$ & $d_{3}=367.5$ & $a_{3}=2128.98$ & $%
+\alpha _{i}=\dfrac{\pi }{2}$ \\ 
+$\theta _{4}=\dfrac{\pi }{2}+q_{4}$ & $d_{4}=0$ & $a_{4}=353.57$ & $\alpha
+_{i}=\dfrac{\pi }{2}$ \\ 
+$\theta _{5}=q_{5}$ & $d_{5}=0$ & $a_{5}=452$ & $\alpha _{i}=-\dfrac{\pi }{2}
+$%
+\end{tabular}%
+\]
+
+Tranformations
+
+\[
+A_{01}=\left[ 
+\begin{array}{cccc}
+\cos \left( \theta _{1}\right) & -\sin \left( \theta _{1}\right) \cos \left(
+\alpha _{1}\right) & \sin \left( \theta _{1}\right) \sin \left( \alpha
+_{1}\right) & a_{1}\cos \left( \theta _{1}\right) \\ 
+\sin \left( \theta _{1}\right) & \cos \left( \theta _{1}\right) \cos \left(
+\alpha _{1}\right) & -\cos \left( \theta _{1}\right) \sin \left( \alpha
+_{1}\right) & a_{1}\sin \left( \theta _{1}\right) \\ 
+0 & \sin \left( \alpha _{1}\right) & \cos \left( \alpha _{1}\right) & d_{1}
+\\ 
+0 & 0 & 0 & 1%
+\end{array}%
+\right] 
+\]
+
+\[
+\begin{array}{c}
+A_{01}=\left[ 
+\begin{array}{cccc}
+\cos \left( -q_{1}\right) & -\sin \left( -q_{1}\right) \cos \left( -\dfrac{%
+\pi }{2}\right) & \sin \left( -q_{1}\right) \sin \left( -\dfrac{\pi }{2}%
+\right) & -658.07\cos \left( -q_{1}\right) \\ 
+\sin \left( -q_{1}\right) & \cos \left( -q_{1}\right) \cos \left( -\dfrac{%
+\pi }{2}\right) & -\cos \left( -q_{1}\right) \sin \left( -\dfrac{\pi }{2}%
+\right) & -658.07\sin \left( -q_{1}\right) \\ 
+0 & \sin \left( -\dfrac{\pi }{2}\right) & \cos \left( -\dfrac{\pi }{2}\right)
+& 1134 \\ 
+0 & 0 & 0 & 1%
+\end{array}%
+\right] \\ 
+=\left[ 
+\begin{array}{cccc}
+\cos \left( -q_{1}\right) & 0 & -\sin \left( -q_{1}\right) & -658.07\cos
+\left( q_{1}\right) \\ 
+\sin \left( -q_{1}\right) & 0 & \cos \left( -q_{1}\right) & -658.07\sin
+\left( q_{1}\right) \\ 
+0 & -1 & 0 & 1134 \\ 
+0 & 0 & 0 & 1%
+\end{array}%
+\right]%
+\end{array}%
+\]
+
+\[
+\begin{array}{c}
+A_{12}=\left[ 
+\begin{array}{cccc}
+\cos \left( q_{2}\right) & -\sin \left( q_{2}\right) \cos \left( 0\right) & 
+\sin \left( q_{2}\right) \sin \left( 0\right) & -1689.31\cos \left(
+q_{2}\right) \\ 
+\sin \left( q_{2}\right) & \cos \left( q_{2}\right) \cos \left( 0\right) & 
+-\cos \left( q_{2}\right) \sin \left( 0\right) & -1689.31\sin \left(
+q_{2}\right) \\ 
+0 & \sin \left( 0\right) & \cos \left( 0\right) & 0 \\ 
+0 & 0 & 0 & 1%
+\end{array}%
+\right] \\ 
+=\left[ 
+\begin{array}{cccc}
+\cos \left( q_{2}\right) & -\sin \left( q_{2}\right) & 0 & -1689.31\cos
+\left( q_{2}\right) \\ 
+\sin \left( q_{2}\right) & \cos \left( q_{2}\right) & 0 & -1689.31\sin
+\left( q_{2}\right) \\ 
+0 & 0 & 1 & 0 \\ 
+0 & 0 & 0 & 1%
+\end{array}%
+\right]%
+\end{array}%
+\]
+
+\[
+\begin{array}{c}
+A_{23}=\left[ 
+\begin{array}{cccc}
+\cos \left( \dfrac{\pi }{2}+q_{3}\right) & -\sin \left( \dfrac{\pi }{2}%
++q_{3}\right) \cos \left( \dfrac{\pi }{2}\right) & \sin \left( \dfrac{\pi }{2%
+}+q_{3}\right) \sin \left( \dfrac{\pi }{2}\right) & 2128.98c\left( \dfrac{%
+\pi }{2}+q_{3}\right) \\ 
+\sin \left( \dfrac{\pi }{2}+q_{3}\right) & \cos \left( \dfrac{\pi }{2}%
++q_{3}\right) \cos \left( \dfrac{\pi }{2}\right) & -\cos \left( \dfrac{\pi }{%
+2}+q_{3}\right) \sin \left( \dfrac{\pi }{2}\right) & 2128.98s\left( \dfrac{%
+\pi }{2}+q_{3}\right) \\ 
+0 & \sin \left( \dfrac{\pi }{2}\right) & \cos \left( \dfrac{\pi }{2}\right)
+& 367.5 \\ 
+0 & 0 & 0 & 1%
+\end{array}%
+\right] \\ 
+=\left[ 
+\begin{array}{cccc}
+c\left( \dfrac{\pi }{2}+q_{3}\right) & 0 & s\left( \dfrac{\pi }{2}%
++q_{3}\right) & 2128.98c\left( \dfrac{\pi }{2}+q_{3}\right) \\ 
+s\left( \dfrac{\pi }{2}+q_{3}\right) & 0 & -c\left( \dfrac{\pi }{2}%
++q_{3}\right) & 2128.98s\left( \dfrac{\pi }{2}+q_{3}\right) \\ 
+0 & 1 & 0 & 367.5 \\ 
+0 & 0 & 0 & 1%
+\end{array}%
+\right]%
+\end{array}%
+\]
+
+\[
+\begin{array}{c}
+A_{34}=\left[ 
+\begin{array}{cccc}
+c\left( \dfrac{\pi }{2}+q_{4}\right) & -s\left( \dfrac{\pi }{2}+q_{4}\right)
+c\left( \dfrac{\pi }{2}\right) & s\left( \dfrac{\pi }{2}+q_{4}\right)
+s\left( \dfrac{\pi }{2}\right) & 353.87c\left( \dfrac{\pi }{2}+q_{4}\right)
+\\ 
+s\left( \dfrac{\pi }{2}+q_{4}\right) & c\left( \dfrac{\pi }{2}+q_{4}\right)
+c\left( \dfrac{\pi }{2}\right) & -c\left( \dfrac{\pi }{2}+q_{4}\right)
+s\left( \dfrac{\pi }{2}\right) & 353.87s\left( \dfrac{\pi }{2}+q_{4}\right)
+\\ 
+0 & s\left( \dfrac{\pi }{2}\right) & c\left( \dfrac{\pi }{2}\right) & 0 \\ 
+0 & 0 & 0 & 1%
+\end{array}%
+\right] \\ 
+=\left[ 
+\begin{array}{cccc}
+c\left( \dfrac{\pi }{2}+q_{4}\right) & 0 & s\left( \dfrac{\pi }{2}%
++q_{4}\right) & 353.87c\left( \dfrac{\pi }{2}+q_{4}\right) \\ 
+s\left( \dfrac{\pi }{2}+q_{4}\right) & 0 & -c\left( \dfrac{\pi }{2}%
++q_{4}\right) & 353.87s\left( \dfrac{\pi }{2}+q_{4}\right) \\ 
+0 & 1 & 0 & 0 \\ 
+0 & 0 & 0 & 1%
+\end{array}%
+\right]%
+\end{array}%
+\]
+
+\[
+\begin{array}{c}
+A_{45}=\left[ 
+\begin{array}{cccc}
+c\left( q_{5}\right) & -s\left( q_{5}\right) c\left( -\dfrac{\pi }{2}\right)
+& s\left( q_{5}\right) s\left( -\dfrac{\pi }{2}\right) & 452c\left(
+q_{5}\right) \\ 
+s\left( q_{5}\right) & c\left( q_{5}\right) c\left( -\dfrac{\pi }{2}\right)
+& -c\left( q_{5}\right) s\left( -\dfrac{\pi }{2}\right) & 452s\left(
+q_{5}\right) \\ 
+0 & s\left( -\dfrac{\pi }{2}\right) & c\left( -\dfrac{\pi }{2}\right) & 0 \\ 
+0 & 0 & 0 & 1%
+\end{array}%
+\right] \\ 
+=\left[ 
+\begin{array}{cccc}
+c\left( q_{5}\right) & 0 & -s\left( q_{5}\right) & 452c\left( q_{5}\right)
+\\ 
+s\left( q_{5}\right) & 0 & c\left( q_{5}\right) & 452s\left( q_{5}\right) \\ 
+0 & -s & 0 & 0 \\ 
+0 & 0 & 0 & 1%
+\end{array}%
+\right]%
+\end{array}%
+\]%
+Transformation for each joint 
+\[
+\begin{array}{c}
+T_{01}=\left[ 
+\begin{array}{cccc}
+c\left( q_{1}\right) & 0 & -s\left( q_{1}\right) & -658.07c\left(
+q_{1}\right) \\ 
+s\left( q_{1}\right) & 0 & c\left( q_{1}\right) & -658.07s\left( q_{1}\right)
+\\ 
+0 & -1 & 0 & 1134 \\ 
+0 & 0 & 0 & 1%
+\end{array}%
+\right] \\ 
+T_{02}=\left[ 
+\begin{array}{cccc}
+c^{2}q_{1}q_{2} & -csq_{1}q_{2} & -sq_{1} & -1689.\,\allowbreak
+3q_{1}q_{2}c^{2}-658.\,\allowbreak 07q_{1}c \\ 
+csq_{1}q_{2} & -s^{2}q_{1}q_{2} & cq_{1} & -658.\,\allowbreak
+07sq_{1}-1689.\,\allowbreak 3csq_{1}q_{2} \\ 
+-sq_{2} & -cq_{2} & 0 & 1689.\,\allowbreak 3sq_{2}+1134 \\ 
+0 & 0 & 0 & 1%
+\end{array}%
+\right] \allowbreak%
+\end{array}%
+\]%
+\[
+T_{03}=\left[ 
+\begin{array}{cccc}
+cq_{1}\left( c^{2}q_{2}\left( \frac{1}{2}\pi +q_{3}\right) -s^{2}q_{2}\left( 
+\frac{1}{2}\pi +q_{3}\right) \right) & -sq_{1} & 2c^{2}sq_{1}q_{2}\left( 
+\frac{1}{2}\pi +q_{3}\right) & -658.\,\allowbreak 07cq_{1}-367.\,\allowbreak
+5sq_{1}-cq_{1}\left( -2129.\,\allowbreak 0q_{2}\left( \frac{1}{2}\pi
++q_{3}\right) c^{2}+1689.\,\allowbreak 3q_{2}c+2129.\,\allowbreak
+0q_{2}\left( \frac{1}{2}\pi +q_{3}\right) s^{2}\right) \\ 
+sq_{1}\left( c^{2}q_{2}\left( \frac{1}{2}\pi +q_{3}\right) -s^{2}q_{2}\left( 
+\frac{1}{2}\pi +q_{3}\right) \right) & cq_{1} & 2cs^{2}q_{1}q_{2}\left( 
+\frac{1}{2}\pi +q_{3}\right) & 367.\,\allowbreak 5cq_{1}-658.\,\allowbreak
+07sq_{1}-sq_{1}\left( -2129.\,\allowbreak 0q_{2}\left( \frac{1}{2}\pi
++q_{3}\right) c^{2}+1689.\,\allowbreak 3q_{2}c+2129.\,\allowbreak
+0q_{2}\left( \frac{1}{2}\pi +q_{3}\right) s^{2}\right) \\ 
+-2csq_{2}\left( \frac{1}{2}\pi +q_{3}\right) & 0 & c^{2}q_{2}\left( \frac{1}{%
+2}\pi +q_{3}\right) -s^{2}q_{2}\left( \frac{1}{2}\pi +q_{3}\right) & 
+1689.\,\allowbreak 3sq_{2}-4258.\,\allowbreak 0csq_{2}\left( \frac{1}{2}\pi
++q_{3}\right) +1134 \\ 
+0 & 0 & 0 & 1%
+\end{array}%
+\right] \allowbreak 
+\]%
+\[
+T_{04}=\left[ 
+\begin{array}{cccc}
+cq_{1}\left( c^{3}q_{2}q_{5}\left( \frac{1}{2}\pi +q_{3}\right)
+-cs^{2}q_{2}q_{5}\left( \frac{1}{2}\pi +q_{3}\right) \right) -s^{2}q_{1}q_{5}
+& -2c^{2}s^{2}q_{1}q_{2}\left( \frac{1}{2}\pi +q_{3}\right) & cq_{1}\left(
+s^{3}q_{2}q_{5}\left( \frac{1}{2}\pi +q_{3}\right) -c^{2}sq_{2}q_{5}\left( 
+\frac{1}{2}\pi +q_{3}\right) \right) -csq_{1}q_{5} & -658.\,\allowbreak
+07cq_{1}-sq_{1}\left( 452sq_{5}+367.\,\allowbreak 5\right) -cq_{1}\left(
+1689.\,\allowbreak 3cq_{2}-cq_{2}\left( 2129.\,\allowbreak 0c\left( \frac{1}{%
+2}\pi +q_{3}\right) +452c^{2}q_{5}\left( \frac{1}{2}\pi +q_{3}\right)
+\right) +sq_{2}\left( 2129.\,\allowbreak 0s\left( \frac{1}{2}\pi
++q_{3}\right) +452csq_{5}\left( \frac{1}{2}\pi +q_{3}\right) \right) \right)
+\\ 
+sq_{1}\left( c^{3}q_{2}q_{5}\left( \frac{1}{2}\pi +q_{3}\right)
+-cs^{2}q_{2}q_{5}\left( \frac{1}{2}\pi +q_{3}\right) \right) +csq_{1}q_{5} & 
+-2cs^{3}q_{1}q_{2}\left( \frac{1}{2}\pi +q_{3}\right) & 
+c^{2}q_{1}q_{5}+sq_{1}\left( s^{3}q_{2}q_{5}\left( \frac{1}{2}\pi
++q_{3}\right) -c^{2}sq_{2}q_{5}\left( \frac{1}{2}\pi +q_{3}\right) \right) & 
+cq_{1}\left( 452sq_{5}+367.\,\allowbreak 5\right) -658.\,\allowbreak
+07sq_{1}-sq_{1}\left( 1689.\,\allowbreak 3cq_{2}-cq_{2}\left(
+2129.\,\allowbreak 0c\left( \frac{1}{2}\pi +q_{3}\right)
++452c^{2}q_{5}\left( \frac{1}{2}\pi +q_{3}\right) \right) +sq_{2}\left(
+2129.\,\allowbreak 0s\left( \frac{1}{2}\pi +q_{3}\right) +452csq_{5}\left( 
+\frac{1}{2}\pi +q_{3}\right) \right) \right) \\ 
+-2c^{2}sq_{2}q_{5}\left( \frac{1}{2}\pi +q_{3}\right) & s^{3}q_{2}\left( 
+\frac{1}{2}\pi +q_{3}\right) -c^{2}sq_{2}\left( \frac{1}{2}\pi +q_{3}\right)
+& 2cs^{2}q_{2}q_{5}\left( \frac{1}{2}\pi +q_{3}\right) & 1689.\,\allowbreak
+3sq_{2}-sq_{2}\left( 2129.\,\allowbreak 0c\left( \frac{1}{2}\pi
++q_{3}\right) +452c^{2}q_{5}\left( \frac{1}{2}\pi +q_{3}\right) \right)
+-cq_{2}\left( 2129.\,\allowbreak 0s\left( \frac{1}{2}\pi +q_{3}\right)
++452csq_{5}\left( \frac{1}{2}\pi +q_{3}\right) \right) +1134 \\ 
+0 & 0 & 0 & 1%
+\end{array}%
+\right] \allowbreak 
+\]
+
+\[
+T_{05}=\left[ 
+\begin{array}{cccc}
+cq_{1}\left( cq_{2}\left( c^{3}q_{5}^{2}\left( \frac{1}{2}\pi +q_{3}\right)
+-s^{3}q_{5}\left( \frac{1}{2}\pi +q_{3}\right) \right) -sq_{2}\left( \left( 
+\frac{1}{2}\pi +q_{3}\right) c^{2}sq_{5}^{2}+\left( \frac{1}{2}\pi
++q_{3}\right) cs^{2}q_{5}\right) \right) -cs^{2}q_{1}q_{5}^{2} & 
+cs^{2}q_{1}q_{5}-cq_{1}\left( s^{4}q_{2}q_{5}\left( \frac{1}{2}\pi
++q_{3}\right) -c^{2}s^{2}q_{2}q_{5}\left( \frac{1}{2}\pi +q_{3}\right)
+\right) & s^{3}q_{1}q_{5}^{2}-cq_{1}\left( cq_{2}\left( \left( \frac{1}{2}%
+\pi +q_{3}\right) c^{2}sq_{5}^{2}+\left( \frac{1}{2}\pi +q_{3}\right)
+cs^{2}q_{5}\right) -sq_{2}\left( cs^{2}q_{5}^{2}\left( \frac{1}{2}\pi
++q_{3}\right) -c^{2}sq_{5}\left( \frac{1}{2}\pi +q_{3}\right) \right) \right)
+& -658.\,\allowbreak 07cq_{1}-sq_{1}\left(
+452csq_{5}^{2}+452sq_{5}+367.\,\allowbreak 5\right) -cq_{1}\left(
+1689.\,\allowbreak 3cq_{2}-cq_{2}\left( -452q_{5}\left( \frac{1}{2}\pi
++q_{3}\right) s^{3}+2129.\,\allowbreak 0c\left( \frac{1}{2}\pi +q_{3}\right)
++c\left( 452c^{2}q_{5}^{2}+452cq_{5}\right) \left( \frac{1}{2}\pi
++q_{3}\right) \right) +sq_{2}\left( 2129.\,\allowbreak 0s\left( \frac{1}{2}%
+\pi +q_{3}\right) +s\left( 452c^{2}q_{5}^{2}+452cq_{5}\right) \left( \frac{1%
+}{2}\pi +q_{3}\right) +452cs^{2}q_{5}\left( \frac{1}{2}\pi +q_{3}\right)
+\right) \right) \\ 
+sq_{1}\left( cq_{2}\left( c^{3}q_{5}^{2}\left( \frac{1}{2}\pi +q_{3}\right)
+-s^{3}q_{5}\left( \frac{1}{2}\pi +q_{3}\right) \right) -sq_{2}\left( \left( 
+\frac{1}{2}\pi +q_{3}\right) c^{2}sq_{5}^{2}+\left( \frac{1}{2}\pi
++q_{3}\right) cs^{2}q_{5}\right) \right) +c^{2}sq_{1}q_{5}^{2} & 
+-sq_{1}\left( s^{4}q_{2}q_{5}\left( \frac{1}{2}\pi +q_{3}\right)
+-c^{2}s^{2}q_{2}q_{5}\left( \frac{1}{2}\pi +q_{3}\right) \right)
+-c^{2}sq_{1}q_{5} & -sq_{1}\left( cq_{2}\left( \left( \frac{1}{2}\pi
++q_{3}\right) c^{2}sq_{5}^{2}+\left( \frac{1}{2}\pi +q_{3}\right)
+cs^{2}q_{5}\right) -sq_{2}\left( cs^{2}q_{5}^{2}\left( \frac{1}{2}\pi
++q_{3}\right) -c^{2}sq_{5}\left( \frac{1}{2}\pi +q_{3}\right) \right)
+\right) -cs^{2}q_{1}q_{5}^{2} & cq_{1}\left(
+452csq_{5}^{2}+452sq_{5}+367.\,\allowbreak 5\right) -658.\,\allowbreak
+07sq_{1}-sq_{1}\left( 1689.\,\allowbreak 3cq_{2}-cq_{2}\left(
+-452q_{5}\left( \frac{1}{2}\pi +q_{3}\right) s^{3}+2129.\,\allowbreak
+0c\left( \frac{1}{2}\pi +q_{3}\right) +c\left(
+452c^{2}q_{5}^{2}+452cq_{5}\right) \left( \frac{1}{2}\pi +q_{3}\right)
+\right) +sq_{2}\left( 2129.\,\allowbreak 0s\left( \frac{1}{2}\pi
++q_{3}\right) +s\left( 452c^{2}q_{5}^{2}+452cq_{5}\right) \left( \frac{1}{2}%
+\pi +q_{3}\right) +452cs^{2}q_{5}\left( \frac{1}{2}\pi +q_{3}\right) \right)
+\right) \\ 
+-sq_{2}\left( c^{3}q_{5}^{2}\left( \frac{1}{2}\pi +q_{3}\right)
+-s^{3}q_{5}\left( \frac{1}{2}\pi +q_{3}\right) \right) -cq_{2}\left( \left( 
+\frac{1}{2}\pi +q_{3}\right) c^{2}sq_{5}^{2}+\left( \frac{1}{2}\pi
++q_{3}\right) cs^{2}q_{5}\right) & -2cs^{3}q_{2}q_{5}\left( \frac{1}{2}\pi
++q_{3}\right) & cq_{2}\left( cs^{2}q_{5}^{2}\left( \frac{1}{2}\pi
++q_{3}\right) -c^{2}sq_{5}\left( \frac{1}{2}\pi +q_{3}\right) \right)
++sq_{2}\left( \left( \frac{1}{2}\pi +q_{3}\right) c^{2}sq_{5}^{2}+\left( 
+\frac{1}{2}\pi +q_{3}\right) cs^{2}q_{5}\right) & 1689.\,\allowbreak
+3sq_{2}-sq_{2}\left( -452q_{5}\left( \frac{1}{2}\pi +q_{3}\right)
+s^{3}+2129.\,\allowbreak 0c\left( \frac{1}{2}\pi +q_{3}\right) +c\left(
+452c^{2}q_{5}^{2}+452cq_{5}\right) \left( \frac{1}{2}\pi +q_{3}\right)
+\right) -cq_{2}\left( 2129.\,\allowbreak 0s\left( \frac{1}{2}\pi
++q_{3}\right) +s\left( 452c^{2}q_{5}^{2}+452cq_{5}\right) \left( \frac{1}{2}%
+\pi +q_{3}\right) +452cs^{2}q_{5}\left( \frac{1}{2}\pi +q_{3}\right) \right)
++1134 \\ 
+0 & 0 & 0 & 1%
+\end{array}%
+\right] \allowbreak 
+\]
+
+\bigskip $\left[ 
+\begin{array}{cccc}
+c\left( q_{1}\right) & 0 & s\left( q_{1}\right) & 390c\left( q_{1}\right) \\ 
+s\left( q_{1}\right) & 0 & -c\left( q_{1}\right) & 390s\left( q_{1}\right)
+\\ 
+0 & 1 & 0 & 538.5 \\ 
+0 & 0 & 0 & 1%
+\end{array}%
+\right] \ast \left[ 
+\begin{array}{cccc}
+c\left( q_{2}-\dfrac{\pi }{2}\right) & -s\left( q_{2}-\dfrac{\pi }{2}\right)
+& 0 & -1220c\left( q_{2}-\dfrac{\pi }{2}\right) \\ 
+s\left( q_{2}-\dfrac{\pi }{2}\right) & c\left( q_{2}-\dfrac{\pi }{2}\right)
+& 0 & -1220s\left( q_{2}-\dfrac{\pi }{2}\right) \\ 
+0 & 0 & 1 & 0 \\ 
+0 & 0 & 0 & 1%
+\end{array}%
+\right] \ast \left[ 
+\begin{array}{cccc}
+c\left( q_{3}+\dfrac{\pi }{2}\right) & -s\left( q_{3}+\dfrac{\pi }{2}\right)
+& 0 & 1300c\left( q_{3}+\dfrac{\pi }{2}\right) \\ 
+s\left( q_{3}+\dfrac{\pi }{2}\right) & c\left( q_{3}+\dfrac{\pi }{2}\right)
+& 0 & 1300s\left( q_{3}+\dfrac{\pi }{2}\right) \\ 
+0 & 0 & 1 & 0 \\ 
+0 & 0 & 0 & 1%
+\end{array}%
+\right] =\allowbreak \left[ 
+\begin{array}{cccc}
+cq_{1}\left( c^{2}\left( q_{2}-\frac{1}{2}\pi \right) \left( \frac{1}{2}\pi
++q_{3}\right) -s^{2}\left( q_{2}-\frac{1}{2}\pi \right) \left( \frac{1}{2}%
+\pi +q_{3}\right) \right) & -2c^{2}sq_{1}\left( q_{2}-\frac{1}{2}\pi \right)
+\left( \frac{1}{2}\pi +q_{3}\right) & sq_{1} & 390cq_{1}-cq_{1}\left(
+1220c\left( q_{2}-\frac{1}{2}\pi \right) -1300c^{2}\left( q_{2}-\frac{1}{2}%
+\pi \right) \left( \frac{1}{2}\pi +q_{3}\right) +1300s^{2}\left( q_{2}-\frac{%
+1}{2}\pi \right) \left( \frac{1}{2}\pi +q_{3}\right) \right) \\ 
+sq_{1}\left( c^{2}\left( q_{2}-\frac{1}{2}\pi \right) \left( \frac{1}{2}\pi
++q_{3}\right) -s^{2}\left( q_{2}-\frac{1}{2}\pi \right) \left( \frac{1}{2}%
+\pi +q_{3}\right) \right) & -2cs^{2}q_{1}\left( q_{2}-\frac{1}{2}\pi \right)
+\left( \frac{1}{2}\pi +q_{3}\right) & -cq_{1} & 390sq_{1}-sq_{1}\left(
+1220c\left( q_{2}-\frac{1}{2}\pi \right) -1300c^{2}\left( q_{2}-\frac{1}{2}%
+\pi \right) \left( \frac{1}{2}\pi +q_{3}\right) +1300s^{2}\left( q_{2}-\frac{%
+1}{2}\pi \right) \left( \frac{1}{2}\pi +q_{3}\right) \right) \\ 
+2cs\left( q_{2}-\frac{1}{2}\pi \right) \left( \frac{1}{2}\pi +q_{3}\right) & 
+c^{2}\left( q_{2}-\frac{1}{2}\pi \right) \left( \frac{1}{2}\pi +q_{3}\right)
+-s^{2}\left( q_{2}-\frac{1}{2}\pi \right) \left( \frac{1}{2}\pi +q_{3}\right)
+& 0 & 2600cs\left( q_{2}-\frac{1}{2}\pi \right) \left( \frac{1}{2}\pi
++q_{3}\right) -1220s\left( q_{2}-\frac{1}{2}\pi \right) +538.\,\allowbreak 5
+\\ 
+0 & 0 & 0 & 1%
+\end{array}%
+\right] \allowbreak $
+
+\bigskip 
+
+Coordinates of each pole%
+\[
+O_{0}=\left[ 
+\begin{array}{c}
+0 \\ 
+0 \\ 
+0%
+\end{array}%
+\right] 
+\]%
+\[
+O_{1}=\left[ 
+\begin{array}{c}
+0 \\ 
+0 \\ 
+l_{0}%
+\end{array}%
+\right] 
+\]%
+\[
+O_{2}=\left[ 
+\begin{array}{c}
+0 \\ 
+0 \\ 
+l_{1}+l_{0}%
+\end{array}%
+\right] 
+\]%
+\[
+O_{3}=\left[ 
+\begin{array}{c}
+l_{2}\cos (\alpha _{2})\cos (\alpha _{1}) \\ 
+l_{2}\cos (\alpha _{2})\sin (\alpha _{1}) \\ 
+l_{2}\sin (\alpha _{2})+l_{1}+l_{0}%
+\end{array}%
+\right] 
+\]
+
+\[
+O_{4}=\left[ 
+\begin{array}{c}
+l_{3}\cos (\alpha _{2}+\alpha _{3})\cos (\alpha _{1}) \\ 
+l_{3}\cos (\alpha _{2}+\alpha _{3})\sin (\alpha _{1}) \\ 
+l_{3}\sin (\alpha _{2}+\alpha _{3})+l_{2}\sin (\alpha _{2})+l_{1}+l_{0}%
+\end{array}%
+\right] 
+\]
+
+\[
+O_{5}=\left[ 
+\begin{array}{c}
+\left( l_{4}\cos (\alpha _{2}+\alpha _{3}+\phi )+l_{3}\cos (\alpha
+_{2}+\alpha _{3})\right) \cos (\alpha _{1}) \\ 
+\left( l_{4}\cos (\alpha _{2}+\alpha _{3}+\phi )+l_{3}\cos (\alpha
+_{2}+\alpha _{3})\right) \sin (\alpha _{1}) \\ 
+l_{4}\sin (\alpha _{2}+\alpha _{3}+\phi )+l_{3}\sin (\alpha _{2}+\alpha
+_{3})+l_{2}\sin (\alpha _{2})+l_{1}+l_{0}%
+\end{array}%
+\right] 
+\]
+
+Location of center of masses%
+\[
+CM_{i}=\gamma _{i}l_{i}
+\]%
+with respect to the previous origin. 
+
+\bigskip 
+
+Velocity of centers of masses%
+\[
+\begin{array}{c}
+\vec{p}_{1}=\left[ 
+\begin{array}{c}
+0 \\ 
+0 \\ 
+\gamma _{1}l_{1}+l_{0}%
+\end{array}%
+\right]  \\ 
+\vec{p}_{2}=\left[ 
+\begin{array}{c}
+\gamma _{2}l_{2}\cos (\alpha _{2})\cos (\alpha _{1}) \\ 
+\gamma _{2}l_{2}\cos (\alpha _{2})\sin (\alpha _{1}) \\ 
+\gamma _{2}l_{2}\sin (\alpha _{2})+l_{1}+l_{0}%
+\end{array}%
+\right]  \\ 
+\vec{p}_{3}=\left[ 
+\begin{array}{c}
+\gamma _{3}l_{3}\cos (\alpha _{2}+\alpha _{3})\cos (\alpha _{1}) \\ 
+\gamma _{3}l_{3}\cos (\alpha _{2}+\alpha _{3})\sin (\alpha _{1}) \\ 
+\gamma _{3}l_{3}\sin (\alpha _{2}+\alpha _{3})+l_{2}\sin (\alpha
+_{2})+l_{1}+l_{0}%
+\end{array}%
+\right]  \\ 
+\vec{p}_{4}=\left[ 
+\begin{array}{c}
+\left( \gamma _{4}l_{4}\cos (\alpha _{2}+\alpha _{3}+\phi )+l_{3}\cos
+(\alpha _{2}+\alpha _{3})\right) \cos (\alpha _{1}) \\ 
+\left( \gamma _{4}l_{4}\cos (\alpha _{2}+\alpha _{3}+\phi )+l_{3}\cos
+(\alpha _{2}+\alpha _{3})\right) \sin (\alpha _{1}) \\ 
+\gamma _{4}l_{4}\sin (\alpha _{2}+\alpha _{3}+\phi )+l_{3}\sin (\alpha
+_{2}+\alpha _{3})+l_{2}\sin (\alpha _{2})+l_{1}+l_{0}%
+\end{array}%
+\right] 
+\end{array}%
+\]%
+\[
+\vec{v}_{1}=\left[ 
+\begin{array}{c}
+0 \\ 
+0 \\ 
+0%
+\end{array}%
+\right] 
+\]
+
+\[
+\vec{v}_{2}=\left[ 
+\begin{array}{c}
+\gamma _{2}l_{2}\left( -\cos (\alpha _{2})\sin (\alpha _{1})\dot{\alpha}%
+_{1}-\sin (\alpha _{2})\cos (\alpha _{1})\dot{\alpha}_{2}\right)  \\ 
+\gamma _{2}l_{2}\left( \cos (\alpha _{2})\cos (\alpha _{1})\dot{\alpha}%
+_{1}-\sin (\alpha _{2})\sin (\alpha _{1})\dot{\alpha}_{2}\right)  \\ 
+\gamma _{2}l_{2}\cos (\alpha _{2})\dot{\alpha}_{2}%
+\end{array}%
+\right] 
+\]
+
+\[
+\vec{v}_{3}=\left[ 
+\begin{array}{c}
+-\gamma _{3}l_{3}\left[ \cos (\alpha _{2}+\alpha _{3})\sin (\alpha _{1})\dot{%
+\alpha}_{1}+\cos (\alpha _{1})\sin (\alpha _{2}+\alpha _{3})(\dot{\alpha}%
+_{2}+\dot{\alpha}_{3})\right]  \\ 
+\gamma _{3}l_{3}\left( \cos (\alpha _{2}+\alpha _{3})\cos (\alpha _{1})\dot{%
+\alpha}_{1}-\sin (\alpha _{1})\sin (\alpha _{2}+\alpha _{3})(\dot{\alpha}%
+_{2}+\dot{\alpha}_{3})\right)  \\ 
+\gamma _{3}l_{3}\cos (\alpha _{2}+\alpha _{3})(\dot{\alpha}_{2}+\dot{\alpha}%
+_{3})+l_{2}\cos (\alpha _{2})\dot{\alpha}_{2}%
+\end{array}%
+\right] 
+\]
+
+\[
+\vec{v}_{4}=\left[ 
+\begin{array}{c}
+-\left( \gamma _{4}l_{4}\cos (\alpha _{2}+\alpha _{3}+\phi )+l_{3}\cos
+(\alpha _{2}+\alpha _{3})\right) \sin (\alpha _{1})\dot{\alpha}_{1}-\left(
+\gamma _{4}l_{4}\sin (\alpha _{2}+\alpha _{3}+\phi )\left( \dot{\alpha}_{2}+%
+\dot{\alpha}_{3}\right) -l_{3}\sin (\alpha _{2}+\alpha _{3})\left( \dot{%
+\alpha}_{2}+\dot{\alpha}_{3}\right) \right) \cos (\alpha _{1}) \\ 
+-\left( -\gamma _{4}l_{4}\sin (\alpha _{2}+\alpha _{3}+\phi )\left( \dot{%
+\alpha}_{2}+\dot{\alpha}_{3}\right) -l_{3}\sin (\alpha _{2}+\alpha
+_{3})\left( \dot{\alpha}_{2}+\dot{\alpha}_{3}\right) \right) \sin (\alpha
+_{1})+\left( \gamma _{4}l_{4}\cos (\alpha _{2}+\alpha _{3}+\phi )+l_{3}\cos
+(\alpha _{2}+\alpha _{3})\right) \cos (\alpha _{1})\dot{\alpha}_{1} \\ 
+\gamma _{4}l_{4}\cos (\alpha _{2}+\alpha _{3}+\phi )\left( \dot{\alpha}_{2}+%
+\dot{\alpha}_{3}\right) +l_{3}\cos (\alpha _{2}+\alpha _{3})\left( \dot{%
+\alpha}_{2}+\dot{\alpha}_{3}\right) +l_{2}\cos (\alpha _{2})\dot{\alpha}_{2}%
+\end{array}%
+\right] 
+\]
+
+$\left( \gamma _{2}l_{2}\left( -\cos (\alpha _{2})\sin (\alpha _{1})\dot{%
+\alpha}_{1}-\sin (\alpha _{2})\cos (\alpha _{1})\dot{\alpha}_{2}\right)
+\right) ^{2}$
+
+
+The kinetic energy \ is given by%
+\[
+T=\dsum\limits_{i=1}^{6}T_{m_{i}} 
+\]%
+where%
+\[
+T_{m_{i}}=T_{m_{i},0}+T_{_{m}i,rot-O}+m_{i}(v_{mi-c.i.-0},v_{0}) 
+\]%
+\[
+\begin{array}{c}
+T_{mi,0}=\frac{1}{2}m_{i}\left\Vert v_{0,i}\right\Vert ^{2}=0 \\ 
+\\ 
+T_{m1,rot-O}=\frac{1}{2}\dot{q}_{1}^{2} \\ 
+m_{1}(v_{m1-c.i.-0},v_{0})= \\ 
+T_{mi}=%
+\end{array}%
+\]%
+\[
+\begin{array}{c}
+T_{m1}= \\ 
+T_{m2}= \\ 
+T_{m3}= \\ 
+T_{m4}= \\ 
+T_{m5}= \\ 
+T_{m6}=%
+\end{array}%
+\]
+
+\end{document}

@@ -1,0 +1,701 @@
+%% AMS-LaTeX Created with the Wolfram Language : www.wolfram.com
+
+\documentclass{article}
+\usepackage{amsmath, amssymb, graphics, setspace}
+\usepackage{amsfonts}
+\usepackage{times}
+\usepackage{harvard}
+\usepackage{graphicx}
+
+
+\newcommand{\mathsym}[1]{{}}
+\newcommand{\unicode}[1]{{}}
+
+\newcounter{mathematicapage}
+\begin{document}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{A01}\text{:=}\left\{\left\{\text{Cos}\left[\theta _1\right],-\text{Sin}\left[\theta _1\right]\text{Cos}\left[\alpha _1\right],\text{Sin}\left[\theta
+_1\right]\text{Sin}\left[\alpha _1\right],a_1\text{Cos}\left[\theta _1\right]\right\},\left\{\text{Sin}\left[\theta _1\right],\text{Cos}\left[\theta
+_1\right]\text{Cos}\left[\alpha _1\right],-\text{Cos}\left[\theta _1\right]\text{Sin}\left[\alpha _1\right],a_1\text{Sin}\left[\theta _1\right]\right\},\left\{0,\text{Sin}\left[\alpha
+_1\right],\text{Cos}\left[\alpha _1\right],d_1\right\},\{0 ,0,0,1\}\right\};}\\
+\pmb{\theta _1=-q_1;}\\
+\pmb{a_1=-658.07;}\\
+\pmb{\alpha _1=-\pi /2;}\\
+\pmb{d_1=1134;}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{A12}\text{:=}\left\{\left\{\text{Cos}\left[\theta _2\right],-\text{Sin}\left[\theta _2\right]\text{Cos}\left[\alpha _2\right],\text{Sin}\left[\theta
+_2\right]\text{Sin}\left[\alpha _2\right],a_2\text{Cos}\left[\theta _2\right]\right\},\left\{\text{Sin}\left[\theta _2\right],\text{Cos}\left[\theta
+_2\right]\text{Cos}\left[\alpha _2\right],-\text{Cos}\left[\theta _2\right]\text{Sin}\left[\alpha _2\right],a_2\text{Sin}\left[\theta _2\right]\right\},\left\{0,\text{Sin}\left[\alpha
+_2\right],\text{Cos}\left[\alpha _2\right],d_2\right\},\{0 ,0,0,1\}\right\};}\\
+\pmb{\theta _2=-q_2;}\\
+\pmb{a_2=-1689.31;}\\
+\pmb{\alpha _2=0;}\\
+\pmb{d_2=0;}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{A23}\text{:=}\left\{\left\{\text{Cos}\left[\theta _3\right],-\text{Sin}\left[\theta _3\right]\text{Cos}\left[\alpha _3\right],\text{Sin}\left[\theta
+_3\right]\text{Sin}\left[\alpha _3\right],a_3\text{Cos}\left[\theta _3\right]\right\},\left\{\text{Sin}\left[\theta _3\right],\text{Cos}\left[\theta
+_3\right]\text{Cos}\left[\alpha _3\right],-\text{Cos}\left[\theta _3\right]\text{Sin}\left[\alpha _3\right],a_3\text{Sin}\left[\theta _3\right]\right\},\left\{0,\text{Sin}\left[\alpha
+_3\right],\text{Cos}\left[\alpha _3\right],d_3\right\},\{0 ,0,0,1\}\right\};}\\
+\pmb{\theta _3=\pi /2+q_3;}\\
+\pmb{a_3=-2128.98;}\\
+\pmb{\alpha _3=\pi /2;}\\
+\pmb{d_3=367.5;}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{A34}\text{:=}\left\{\left\{\text{Cos}\left[\theta _4\right],-\text{Sin}\left[\theta _4\right]\text{Cos}\left[\alpha _4\right],\text{Sin}\left[\theta
+_4\right]\text{Sin}\left[\alpha _4\right],a_4\text{Cos}\left[\theta _4\right]\right\},\left\{\text{Sin}\left[\theta _4\right],\text{Cos}\left[\theta
+_4\right]\text{Cos}\left[\alpha _4\right],-\text{Cos}\left[\theta _4\right]\text{Sin}\left[\alpha _4\right],a_4\text{Sin}\left[\theta _4\right]\right\},\left\{0,\text{Sin}\left[\alpha
+_4\right],\text{Cos}\left[\alpha _4\right],d_4\right\},\{0 ,0,0,1\}\right\};}\\
+\pmb{\theta _4=\pi /2+q_4;}\\
+\pmb{a_4=353.87;}\\
+\pmb{\alpha _4=\pi /2;}\\
+\pmb{d_4=0;}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{A45}\text{:=}\left\{\left\{\text{Cos}\left[\theta _5\right],-\text{Sin}\left[\theta _5\right]\text{Cos}\left[\alpha _5\right],\text{Sin}\left[\theta
+_5\right]\text{Sin}\left[\alpha _5\right],a_5\text{Cos}\left[\theta _5\right]\right\},\left\{\text{Sin}\left[\theta _5\right],\text{Cos}\left[\theta
+_5\right]\text{Cos}\left[\alpha _5\right],-\text{Cos}\left[\theta _5\right]\text{Sin}\left[\alpha _5\right],a_5\text{Sin}\left[\theta _5\right]\right\},\left\{0,\text{Sin}\left[\alpha
+_5\right],\text{Cos}\left[\alpha _5\right],d_5\right\},\{0 ,0,0,1\}\right\};}\\
+\pmb{\theta _5=q_5;}\\
+\pmb{a_5=-452;}\\
+\pmb{\alpha _5=-\pi /2;}\\
+\pmb{d_5=0;}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{}}\\
+\pmb{\text{A23}\text{//}\text{MatrixForm}}\\
+\pmb{\text{A34}\text{//}\text{MatrixForm}}\\
+\pmb{\text{A45}\text{//}\text{MatrixForm}}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left(
+\begin{array}{cccc}
+ -\text{Sin}\left[q_3\right] & 0 & \text{Cos}\left[q_3\right] & 2128.98 \text{Sin}\left[q_3\right] \\
+ \text{Cos}\left[q_3\right] & 0 & \text{Sin}\left[q_3\right] & -2128.98 \text{Cos}\left[q_3\right] \\
+ 0 & 1 & 0 & 367.5 \\
+ 0 & 0 & 0 & 1 \\
+\end{array}
+\right)\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\text{A34}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left(
+\begin{array}{cccc}
+ \text{Cos}\left[q_5\right] & 0 & -\text{Sin}\left[q_5\right] & -452 \text{Cos}\left[q_5\right] \\
+ \text{Sin}\left[q_5\right] & 0 & \text{Cos}\left[q_5\right] & -452 \text{Sin}\left[q_5\right] \\
+ 0 & -1 & 0 & 0 \\
+ 0 & 0 & 0 & 1 \\
+\end{array}
+\right)\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{A01}\text{//}\text{MatrixForm}}\\
+\pmb{\text{A12}\text{//}\text{MatrixForm}}\\
+\pmb{\text{A02}=\text{A01}*\text{A12}\text{//}\text{MatrixForm}}\\
+\pmb{\text{A02}=\text{A01}.\text{A12}\text{//}\text{MatrixForm}}\\
+\pmb{}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left(
+\begin{array}{cccc}
+ \text{Cos}\left[q_1\right] & 0 & \text{Sin}\left[q_1\right] & -658.07 \text{Cos}\left[q_1\right] \\
+ -\text{Sin}\left[q_1\right] & 0 & \text{Cos}\left[q_1\right] & 658.07 \text{Sin}\left[q_1\right] \\
+ 0 & -1 & 0 & 1134 \\
+ 0 & 0 & 0 & 1 \\
+\end{array}
+\right)\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left(
+\begin{array}{cccc}
+ \text{Cos}\left[q_2\right] & \text{Sin}\left[q_2\right] & 0 & -1689.31 \text{Cos}\left[q_2\right] \\
+ -\text{Sin}\left[q_2\right] & \text{Cos}\left[q_2\right] & 0 & 1689.31 \text{Sin}\left[q_2\right] \\
+ 0 & 0 & 1 & 0 \\
+ 0 & 0 & 0 & 1 \\
+\end{array}
+\right)\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left(
+\begin{array}{cccc}
+ \text{Cos}\left[q_1\right] \text{Cos}\left[q_2\right] & 0 & 0 & 1.11168\times 10^6 \text{Cos}\left[q_1\right] \text{Cos}\left[q_2\right] \\
+ \text{Sin}\left[q_1\right] \text{Sin}\left[q_2\right] & 0 & 0 & 1.11168\times 10^6 \text{Sin}\left[q_1\right] \text{Sin}\left[q_2\right] \\
+ 0 & 0 & 0 & 0 \\
+ 0 & 0 & 0 & 1 \\
+\end{array}
+\right)\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left(
+\begin{array}{cccc}
+ 0.\, +\text{Cos}\left[q_1\right] \text{Cos}\left[q_2\right] & 0.\, +\text{Cos}\left[q_1\right] \text{Sin}\left[q_2\right] & 0.\, +\text{Sin}\left[q_1\right]
+& 0.\, -658.07 \text{Cos}\left[q_1\right]-1689.31 \text{Cos}\left[q_1\right] \text{Cos}\left[q_2\right] \\
+ 0.\, -\text{Cos}\left[q_2\right] \text{Sin}\left[q_1\right] & 0.\, -\text{Sin}\left[q_1\right] \text{Sin}\left[q_2\right] & 0.\, +\text{Cos}\left[q_1\right]
+& 0.\, +658.07 \text{Sin}\left[q_1\right]+1689.31 \text{Cos}\left[q_2\right] \text{Sin}\left[q_1\right] \\
+ \text{Sin}\left[q_2\right] & -\text{Cos}\left[q_2\right] & 0 & 1134.\, -1689.31 \text{Sin}\left[q_2\right] \\
+ 0 & 0 & 0 & 1. \\
+\end{array}
+\right)\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{}}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{}}\\
+\pmb{\text{A05}=\text{A01}.\text{A12}.\text{A23}.\text{A34}.\text{A45}}\\
+\pmb{\text{A05}\text{//}\text{MatrixForm}}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{\left\{\text{Cos}\left[q_5\right] \left(\text{Cos}\left[q_4\right] \left(0.\, +\text{Sin}\left[q_1\right]\right)-\left(\text{Cos}\left[q_3\right]
+\left(0.\, +\text{Cos}\left[q_1\right] \text{Sin}\left[q_2\right]\right)-\left(0.\, +\text{Cos}\left[q_1\right] \text{Cos}\left[q_2\right]\right)
+\text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_4\right]\right)+\left(\left(0.\, +\text{Cos}\left[q_1\right] \text{Cos}\left[q_2\right]\right)
+\text{Cos}\left[q_3\right]+\left(0.\, +\text{Cos}\left[q_1\right] \text{Sin}\left[q_2\right]\right) \text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_5\right],-\text{Cos}\left[q_4\right]
+\left(\text{Cos}\left[q_3\right] \left(0.\, +\text{Cos}\left[q_1\right] \text{Sin}\left[q_2\right]\right)-\left(0.\, +\text{Cos}\left[q_1\right]
+\text{Cos}\left[q_2\right]\right) \text{Sin}\left[q_3\right]\right)-\left(0.\, +\text{Sin}\left[q_1\right]\right) \text{Sin}\left[q_4\right],\text{Cos}\left[q_5\right]
+\left(\left(0.\, +\text{Cos}\left[q_1\right] \text{Cos}\left[q_2\right]\right) \text{Cos}\left[q_3\right]+\left(0.\, +\text{Cos}\left[q_1\right]
+\text{Sin}\left[q_2\right]\right) \text{Sin}\left[q_3\right]\right)-\left(\text{Cos}\left[q_4\right] \left(0.\, +\text{Sin}\left[q_1\right]\right)-\left(\text{Cos}\left[q_3\right]
+\left(0.\, +\text{Cos}\left[q_1\right] \text{Sin}\left[q_2\right]\right)-\left(0.\, +\text{Cos}\left[q_1\right] \text{Cos}\left[q_2\right]\right)
+\text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_4\right]\right) \text{Sin}\left[q_5\right],0.\, -658.07 \text{Cos}\left[q_1\right]-1689.31 \text{Cos}\left[q_1\right]
+\text{Cos}\left[q_2\right]+367.5 \left(0.\, +\text{Sin}\left[q_1\right]\right)+353.87 \text{Cos}\left[q_4\right] \left(0.\, +\text{Sin}\left[q_1\right]\right)-2128.98
+\text{Cos}\left[q_3\right] \left(0.\, +\text{Cos}\left[q_1\right] \text{Sin}\left[q_2\right]\right)+2128.98 \left(0.\, +\text{Cos}\left[q_1\right]
+\text{Cos}\left[q_2\right]\right) \text{Sin}\left[q_3\right]-353.87 \left(\text{Cos}\left[q_3\right] \left(0.\, +\text{Cos}\left[q_1\right] \text{Sin}\left[q_2\right]\right)-\left(0.\,
++\text{Cos}\left[q_1\right] \text{Cos}\left[q_2\right]\right) \text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_4\right]-452 \text{Cos}\left[q_5\right]
+\left(\text{Cos}\left[q_4\right] \left(0.\, +\text{Sin}\left[q_1\right]\right)-\left(\text{Cos}\left[q_3\right] \left(0.\, +\text{Cos}\left[q_1\right]
+\text{Sin}\left[q_2\right]\right)-\left(0.\, +\text{Cos}\left[q_1\right] \text{Cos}\left[q_2\right]\right) \text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_4\right]\right)-452
+\left(\left(0.\, +\text{Cos}\left[q_1\right] \text{Cos}\left[q_2\right]\right) \text{Cos}\left[q_3\right]+\left(0.\, +\text{Cos}\left[q_1\right]
+\text{Sin}\left[q_2\right]\right) \text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_5\right]\right\},\left\{\text{Cos}\left[q_5\right] \left(\left(0.\,
++\text{Cos}\left[q_1\right]\right) \text{Cos}\left[q_4\right]-\left(\text{Cos}\left[q_3\right] \left(0.\, -\text{Sin}\left[q_1\right] \text{Sin}\left[q_2\right]\right)-\left(0.\,
+-\text{Cos}\left[q_2\right] \text{Sin}\left[q_1\right]\right) \text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_4\right]\right)+\left(\text{Cos}\left[q_3\right]
+\left(0.\, -\text{Cos}\left[q_2\right] \text{Sin}\left[q_1\right]\right)+\left(0.\, -\text{Sin}\left[q_1\right] \text{Sin}\left[q_2\right]\right)
+\text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_5\right],-\text{Cos}\left[q_4\right] \left(\text{Cos}\left[q_3\right] \left(0.\, -\text{Sin}\left[q_1\right]
+\text{Sin}\left[q_2\right]\right)-\left(0.\, -\text{Cos}\left[q_2\right] \text{Sin}\left[q_1\right]\right) \text{Sin}\left[q_3\right]\right)-\left(0.\,
++\text{Cos}\left[q_1\right]\right) \text{Sin}\left[q_4\right],\text{Cos}\left[q_5\right] \left(\text{Cos}\left[q_3\right] \left(0.\, -\text{Cos}\left[q_2\right]
+\text{Sin}\left[q_1\right]\right)+\left(0.\, -\text{Sin}\left[q_1\right] \text{Sin}\left[q_2\right]\right) \text{Sin}\left[q_3\right]\right)-\left(\left(0.\,
++\text{Cos}\left[q_1\right]\right) \text{Cos}\left[q_4\right]-\left(\text{Cos}\left[q_3\right] \left(0.\, -\text{Sin}\left[q_1\right] \text{Sin}\left[q_2\right]\right)-\left(0.\,
+-\text{Cos}\left[q_2\right] \text{Sin}\left[q_1\right]\right) \text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_4\right]\right) \text{Sin}\left[q_5\right],0.\,
++367.5 \left(0.\, +\text{Cos}\left[q_1\right]\right)+353.87 \left(0.\, +\text{Cos}\left[q_1\right]\right) \text{Cos}\left[q_4\right]+658.07 \text{Sin}\left[q_1\right]+1689.31
+\text{Cos}\left[q_2\right] \text{Sin}\left[q_1\right]-2128.98 \text{Cos}\left[q_3\right] \left(0.\, -\text{Sin}\left[q_1\right] \text{Sin}\left[q_2\right]\right)+2128.98
+\left(0.\, -\text{Cos}\left[q_2\right] \text{Sin}\left[q_1\right]\right) \text{Sin}\left[q_3\right]-353.87 \left(\text{Cos}\left[q_3\right] \left(0.\,
+-\text{Sin}\left[q_1\right] \text{Sin}\left[q_2\right]\right)-\left(0.\, -\text{Cos}\left[q_2\right] \text{Sin}\left[q_1\right]\right) \text{Sin}\left[q_3\right]\right)
+\text{Sin}\left[q_4\right]-452 \text{Cos}\left[q_5\right] \left(\left(0.\, +\text{Cos}\left[q_1\right]\right) \text{Cos}\left[q_4\right]-\left(\text{Cos}\left[q_3\right]
+\left(0.\, -\text{Sin}\left[q_1\right] \text{Sin}\left[q_2\right]\right)-\left(0.\, -\text{Cos}\left[q_2\right] \text{Sin}\left[q_1\right]\right)
+\text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_4\right]\right)-452 \left(\text{Cos}\left[q_3\right] \left(0.\, -\text{Cos}\left[q_2\right] \text{Sin}\left[q_1\right]\right)+\left(0.\,
+-\text{Sin}\left[q_1\right] \text{Sin}\left[q_2\right]\right) \text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_5\right]\right\},\left\{-\text{Cos}\left[q_5\right]
+\left(-\text{Cos}\left[q_2\right] \text{Cos}\left[q_3\right]-\text{Sin}\left[q_2\right] \text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_4\right]+\left(\text{Cos}\left[q_3\right]
+\text{Sin}\left[q_2\right]-\text{Cos}\left[q_2\right] \text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_5\right],-\text{Cos}\left[q_4\right] \left(-\text{Cos}\left[q_2\right]
+\text{Cos}\left[q_3\right]-\text{Sin}\left[q_2\right] \text{Sin}\left[q_3\right]\right),\text{Cos}\left[q_5\right] \left(\text{Cos}\left[q_3\right]
+\text{Sin}\left[q_2\right]-\text{Cos}\left[q_2\right] \text{Sin}\left[q_3\right]\right)+\left(-\text{Cos}\left[q_2\right] \text{Cos}\left[q_3\right]-\text{Sin}\left[q_2\right]
+\text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_4\right] \text{Sin}\left[q_5\right],1134.\, +2128.98 \text{Cos}\left[q_2\right] \text{Cos}\left[q_3\right]-1689.31
+\text{Sin}\left[q_2\right]+2128.98 \text{Sin}\left[q_2\right] \text{Sin}\left[q_3\right]-353.87 \left(-\text{Cos}\left[q_2\right] \text{Cos}\left[q_3\right]-\text{Sin}\left[q_2\right]
+\text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_4\right]+452 \text{Cos}\left[q_5\right] \left(-\text{Cos}\left[q_2\right] \text{Cos}\left[q_3\right]-\text{Sin}\left[q_2\right]
+\text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_4\right]-452 \left(\text{Cos}\left[q_3\right] \text{Sin}\left[q_2\right]-\text{Cos}\left[q_2\right]
+\text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_5\right]\right\},\{0.,0.,0.,1.\}\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left(
+\begin{array}{cccc}
+ \text{Cos}\left[q_5\right] \left(\text{Cos}\left[q_4\right] \left(0.\, +\text{Sin}\left[q_1\right]\right)-\left(\text{Cos}\left[q_3\right] \left(0.\,
++\text{Cos}\left[q_1\right] \text{Sin}\left[q_2\right]\right)-\left(0.\, +\text{Cos}\left[q_1\right] \text{Cos}\left[q_2\right]\right) \text{Sin}\left[q_3\right]\right)
+\text{Sin}\left[q_4\right]\right)+\left(\left(0.\, +\text{Cos}\left[q_1\right] \text{Cos}\left[q_2\right]\right) \text{Cos}\left[q_3\right]+\left(0.\,
++\text{Cos}\left[q_1\right] \text{Sin}\left[q_2\right]\right) \text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_5\right] & -\text{Cos}\left[q_4\right]
+\left(\text{Cos}\left[q_3\right] \left(0.\, +\text{Cos}\left[q_1\right] \text{Sin}\left[q_2\right]\right)-\left(0.\, +\text{Cos}\left[q_1\right]
+\text{Cos}\left[q_2\right]\right) \text{Sin}\left[q_3\right]\right)-\left(0.\, +\text{Sin}\left[q_1\right]\right) \text{Sin}\left[q_4\right] & \text{Cos}\left[q_5\right]
+\left(\left(0.\, +\text{Cos}\left[q_1\right] \text{Cos}\left[q_2\right]\right) \text{Cos}\left[q_3\right]+\left(0.\, +\text{Cos}\left[q_1\right]
+\text{Sin}\left[q_2\right]\right) \text{Sin}\left[q_3\right]\right)-\left(\text{Cos}\left[q_4\right] \left(0.\, +\text{Sin}\left[q_1\right]\right)-\left(\text{Cos}\left[q_3\right]
+\left(0.\, +\text{Cos}\left[q_1\right] \text{Sin}\left[q_2\right]\right)-\left(0.\, +\text{Cos}\left[q_1\right] \text{Cos}\left[q_2\right]\right)
+\text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_4\right]\right) \text{Sin}\left[q_5\right] & 0.\, -658.07 \text{Cos}\left[q_1\right]-1689.31
+\text{Cos}\left[q_1\right] \text{Cos}\left[q_2\right]+367.5 \left(0.\, +\text{Sin}\left[q_1\right]\right)+353.87 \text{Cos}\left[q_4\right] \left(0.\,
++\text{Sin}\left[q_1\right]\right)-2128.98 \text{Cos}\left[q_3\right] \left(0.\, +\text{Cos}\left[q_1\right] \text{Sin}\left[q_2\right]\right)+2128.98
+\left(0.\, +\text{Cos}\left[q_1\right] \text{Cos}\left[q_2\right]\right) \text{Sin}\left[q_3\right]-353.87 \left(\text{Cos}\left[q_3\right] \left(0.\,
++\text{Cos}\left[q_1\right] \text{Sin}\left[q_2\right]\right)-\left(0.\, +\text{Cos}\left[q_1\right] \text{Cos}\left[q_2\right]\right) \text{Sin}\left[q_3\right]\right)
+\text{Sin}\left[q_4\right]-452 \text{Cos}\left[q_5\right] \left(\text{Cos}\left[q_4\right] \left(0.\, +\text{Sin}\left[q_1\right]\right)-\left(\text{Cos}\left[q_3\right]
+\left(0.\, +\text{Cos}\left[q_1\right] \text{Sin}\left[q_2\right]\right)-\left(0.\, +\text{Cos}\left[q_1\right] \text{Cos}\left[q_2\right]\right)
+\text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_4\right]\right)-452 \left(\left(0.\, +\text{Cos}\left[q_1\right] \text{Cos}\left[q_2\right]\right)
+\text{Cos}\left[q_3\right]+\left(0.\, +\text{Cos}\left[q_1\right] \text{Sin}\left[q_2\right]\right) \text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_5\right]
+\\
+ \text{Cos}\left[q_5\right] \left(\left(0.\, +\text{Cos}\left[q_1\right]\right) \text{Cos}\left[q_4\right]-\left(\text{Cos}\left[q_3\right] \left(0.\,
+-\text{Sin}\left[q_1\right] \text{Sin}\left[q_2\right]\right)-\left(0.\, -\text{Cos}\left[q_2\right] \text{Sin}\left[q_1\right]\right) \text{Sin}\left[q_3\right]\right)
+\text{Sin}\left[q_4\right]\right)+\left(\text{Cos}\left[q_3\right] \left(0.\, -\text{Cos}\left[q_2\right] \text{Sin}\left[q_1\right]\right)+\left(0.\,
+-\text{Sin}\left[q_1\right] \text{Sin}\left[q_2\right]\right) \text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_5\right] & -\text{Cos}\left[q_4\right]
+\left(\text{Cos}\left[q_3\right] \left(0.\, -\text{Sin}\left[q_1\right] \text{Sin}\left[q_2\right]\right)-\left(0.\, -\text{Cos}\left[q_2\right]
+\text{Sin}\left[q_1\right]\right) \text{Sin}\left[q_3\right]\right)-\left(0.\, +\text{Cos}\left[q_1\right]\right) \text{Sin}\left[q_4\right] & \text{Cos}\left[q_5\right]
+\left(\text{Cos}\left[q_3\right] \left(0.\, -\text{Cos}\left[q_2\right] \text{Sin}\left[q_1\right]\right)+\left(0.\, -\text{Sin}\left[q_1\right]
+\text{Sin}\left[q_2\right]\right) \text{Sin}\left[q_3\right]\right)-\left(\left(0.\, +\text{Cos}\left[q_1\right]\right) \text{Cos}\left[q_4\right]-\left(\text{Cos}\left[q_3\right]
+\left(0.\, -\text{Sin}\left[q_1\right] \text{Sin}\left[q_2\right]\right)-\left(0.\, -\text{Cos}\left[q_2\right] \text{Sin}\left[q_1\right]\right)
+\text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_4\right]\right) \text{Sin}\left[q_5\right] & 0.\, +367.5 \left(0.\, +\text{Cos}\left[q_1\right]\right)+353.87
+\left(0.\, +\text{Cos}\left[q_1\right]\right) \text{Cos}\left[q_4\right]+658.07 \text{Sin}\left[q_1\right]+1689.31 \text{Cos}\left[q_2\right] \text{Sin}\left[q_1\right]-2128.98
+\text{Cos}\left[q_3\right] \left(0.\, -\text{Sin}\left[q_1\right] \text{Sin}\left[q_2\right]\right)+2128.98 \left(0.\, -\text{Cos}\left[q_2\right]
+\text{Sin}\left[q_1\right]\right) \text{Sin}\left[q_3\right]-353.87 \left(\text{Cos}\left[q_3\right] \left(0.\, -\text{Sin}\left[q_1\right] \text{Sin}\left[q_2\right]\right)-\left(0.\,
+-\text{Cos}\left[q_2\right] \text{Sin}\left[q_1\right]\right) \text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_4\right]-452 \text{Cos}\left[q_5\right]
+\left(\left(0.\, +\text{Cos}\left[q_1\right]\right) \text{Cos}\left[q_4\right]-\left(\text{Cos}\left[q_3\right] \left(0.\, -\text{Sin}\left[q_1\right]
+\text{Sin}\left[q_2\right]\right)-\left(0.\, -\text{Cos}\left[q_2\right] \text{Sin}\left[q_1\right]\right) \text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_4\right]\right)-452
+\left(\text{Cos}\left[q_3\right] \left(0.\, -\text{Cos}\left[q_2\right] \text{Sin}\left[q_1\right]\right)+\left(0.\, -\text{Sin}\left[q_1\right]
+\text{Sin}\left[q_2\right]\right) \text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_5\right] \\
+ -\text{Cos}\left[q_5\right] \left(-\text{Cos}\left[q_2\right] \text{Cos}\left[q_3\right]-\text{Sin}\left[q_2\right] \text{Sin}\left[q_3\right]\right)
+\text{Sin}\left[q_4\right]+\left(\text{Cos}\left[q_3\right] \text{Sin}\left[q_2\right]-\text{Cos}\left[q_2\right] \text{Sin}\left[q_3\right]\right)
+\text{Sin}\left[q_5\right] & -\text{Cos}\left[q_4\right] \left(-\text{Cos}\left[q_2\right] \text{Cos}\left[q_3\right]-\text{Sin}\left[q_2\right]
+\text{Sin}\left[q_3\right]\right) & \text{Cos}\left[q_5\right] \left(\text{Cos}\left[q_3\right] \text{Sin}\left[q_2\right]-\text{Cos}\left[q_2\right]
+\text{Sin}\left[q_3\right]\right)+\left(-\text{Cos}\left[q_2\right] \text{Cos}\left[q_3\right]-\text{Sin}\left[q_2\right] \text{Sin}\left[q_3\right]\right)
+\text{Sin}\left[q_4\right] \text{Sin}\left[q_5\right] & 1134.\, +2128.98 \text{Cos}\left[q_2\right] \text{Cos}\left[q_3\right]-1689.31 \text{Sin}\left[q_2\right]+2128.98
+\text{Sin}\left[q_2\right] \text{Sin}\left[q_3\right]-353.87 \left(-\text{Cos}\left[q_2\right] \text{Cos}\left[q_3\right]-\text{Sin}\left[q_2\right]
+\text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_4\right]+452 \text{Cos}\left[q_5\right] \left(-\text{Cos}\left[q_2\right] \text{Cos}\left[q_3\right]-\text{Sin}\left[q_2\right]
+\text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_4\right]-452 \left(\text{Cos}\left[q_3\right] \text{Sin}\left[q_2\right]-\text{Cos}\left[q_2\right]
+\text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_5\right] \\
+ 0. & 0. & 0. & 1. \\
+\end{array}
+\right)\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{Px}=\text{Simplify}[\{\{1,0,0,0\},\{0,0,0,0\},\{0,0,0,0\}\}.\text{A05}.\{0,0,0,1\}]}\\
+\pmb{\text{Py}=\text{Simplify}[\{\{0,0,0,0\},\{0,1,0,0\},\{0,0,0,0\}\}.\text{A05}.\{0,0,0,1\}]}\\
+\pmb{\text{Pz}=\text{Simplify}[\{\{0,0,0,0\},\{0,0,0,0\},\{0,0,1,0\}\}.\text{A05}.\{0,0,0,1\}]}\\
+\pmb{}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{-452. \left(-0.813053+\text{Cos}\left[q_4\right] \left(-0.782898+\text{Cos}\left[q_5\right]\right)\right) \text{Sin}\left[q_1\right]+353.87
+\text{Cos}\left[q_1\right] \left(-1.85964+\text{Cos}\left[q_3\right] \text{Sin}\left[q_2\right] \left(-6.01628-1. \text{Sin}\left[q_4\right]\right)+1.27731
+\text{Cos}\left[q_5\right] \text{Sin}\left[q_2-q_3\right] \text{Sin}\left[q_4\right]+\text{Cos}\left[q_2\right] \left(-4.77382+\text{Sin}\left[q_3\right]
+\left(6.01628\, +1. \text{Sin}\left[q_4\right]\right)\right)-1.27731 \text{Cos}\left[q_2-q_3\right] \text{Sin}\left[q_5\right]\right),0.,0.\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{0.,-452. \text{Cos}\left[q_1\right] \left(-0.813053+\text{Cos}\left[q_4\right] \left(-0.782898+\text{Cos}\left[q_5\right]\right)\right)-353.87
+\text{Sin}\left[q_1\right] \left(-1.85964+\text{Cos}\left[q_3\right] \text{Sin}\left[q_2\right] \left(-6.01628-1. \text{Sin}\left[q_4\right]\right)+1.27731
+\text{Cos}\left[q_5\right] \text{Sin}\left[q_2-q_3\right] \text{Sin}\left[q_4\right]+\text{Cos}\left[q_2\right] \left(-4.77382+\text{Sin}\left[q_3\right]
+\left(6.01628\, +1. \text{Sin}\left[q_4\right]\right)\right)-1.27731 \text{Cos}\left[q_2-q_3\right] \text{Sin}\left[q_5\right]\right),0.\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{0.,0.,-452. \left(-2.50885+\text{Sin}\left[q_2\right] \left(3.73741\, +\text{Sin}\left[q_3\right] \left(-4.71013+\left(-0.782898+\text{Cos}\left[q_5\right]\right)
+\text{Sin}\left[q_4\right]\right)+\text{Cos}\left[q_3\right] \text{Sin}\left[q_5\right]\right)+\text{Cos}\left[q_2\right] \left(\text{Cos}\left[q_3\right]
+\left(-4.71013+\left(-0.782898+\text{Cos}\left[q_5\right]\right) \text{Sin}\left[q_4\right]\right)-1. \text{Sin}\left[q_3\right] \text{Sin}\left[q_5\right]\right)\right)\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{Jv}\text{:=}\left\{\left\{D\left[\text{Px},q_1\right],D\left[\text{Px},q_2\right],D\left[\text{Px},q_3\right],D\left[\text{Px},q_4\right],D\left[\text{Px},q_5\right]\right\},\left\{D\left[\text{Py},q_1\right],D\left[\text{Py},q_2\right],D\left[\text{Py},q_3\right],D\left[\text{Py},q_4\right],D\left[\text{Py},q_5\right]\right\},\right.}\\
+\pmb{\left.\left\{D\left[\text{Pz},q_1\right],D\left[\text{Pz},q_2\right],D\left[\text{Py},q_3\right],D\left[\text{Py},q_4\right],D\left[\text{Py},q_5\right]\right\}\right\}}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{J\text{//}\text{MatrixForm}}\\
+\pmb{\text{Transpose}[J]\text{//}\text{MatrixForm}}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(J\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\text{Transpose}[J]\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{R=\{\{1,0,0,0\},\{0 ,1,0,0\},\{0 ,0,1,0\}\}.\text{A05}.\{\{1,0,0\},\{0,1,0\},\{0,0,1\},\{0,0,0\}\}}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{\left\{0.\, +\text{Cos}\left[q_5\right] \left(\text{Cos}\left[q_4\right] \left(0.\, +\text{Sin}\left[q_1\right]\right)-\left(\text{Cos}\left[q_3\right]
+\left(0.\, +\text{Cos}\left[q_1\right] \text{Sin}\left[q_2\right]\right)-\left(0.\, +\text{Cos}\left[q_1\right] \text{Cos}\left[q_2\right]\right)
+\text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_4\right]\right)+\left(\left(0.\, +\text{Cos}\left[q_1\right] \text{Cos}\left[q_2\right]\right)
+\text{Cos}\left[q_3\right]+\left(0.\, +\text{Cos}\left[q_1\right] \text{Sin}\left[q_2\right]\right) \text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_5\right],0.\,
+-\text{Cos}\left[q_4\right] \left(\text{Cos}\left[q_3\right] \left(0.\, +\text{Cos}\left[q_1\right] \text{Sin}\left[q_2\right]\right)-\left(0.\,
++\text{Cos}\left[q_1\right] \text{Cos}\left[q_2\right]\right) \text{Sin}\left[q_3\right]\right)-\left(0.\, +\text{Sin}\left[q_1\right]\right) \text{Sin}\left[q_4\right],0.\,
++\text{Cos}\left[q_5\right] \left(\left(0.\, +\text{Cos}\left[q_1\right] \text{Cos}\left[q_2\right]\right) \text{Cos}\left[q_3\right]+\left(0.\,
++\text{Cos}\left[q_1\right] \text{Sin}\left[q_2\right]\right) \text{Sin}\left[q_3\right]\right)-\left(\text{Cos}\left[q_4\right] \left(0.\, +\text{Sin}\left[q_1\right]\right)-\left(\text{Cos}\left[q_3\right]
+\left(0.\, +\text{Cos}\left[q_1\right] \text{Sin}\left[q_2\right]\right)-\left(0.\, +\text{Cos}\left[q_1\right] \text{Cos}\left[q_2\right]\right)
+\text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_4\right]\right) \text{Sin}\left[q_5\right]\right\},\left\{0.\, +\text{Cos}\left[q_5\right] \left(\left(0.\,
++\text{Cos}\left[q_1\right]\right) \text{Cos}\left[q_4\right]-\left(\text{Cos}\left[q_3\right] \left(0.\, -\text{Sin}\left[q_1\right] \text{Sin}\left[q_2\right]\right)-\left(0.\,
+-\text{Cos}\left[q_2\right] \text{Sin}\left[q_1\right]\right) \text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_4\right]\right)+\left(\text{Cos}\left[q_3\right]
+\left(0.\, -\text{Cos}\left[q_2\right] \text{Sin}\left[q_1\right]\right)+\left(0.\, -\text{Sin}\left[q_1\right] \text{Sin}\left[q_2\right]\right)
+\text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_5\right],0.\, -\text{Cos}\left[q_4\right] \left(\text{Cos}\left[q_3\right] \left(0.\, -\text{Sin}\left[q_1\right]
+\text{Sin}\left[q_2\right]\right)-\left(0.\, -\text{Cos}\left[q_2\right] \text{Sin}\left[q_1\right]\right) \text{Sin}\left[q_3\right]\right)-\left(0.\,
++\text{Cos}\left[q_1\right]\right) \text{Sin}\left[q_4\right],0.\, +\text{Cos}\left[q_5\right] \left(\text{Cos}\left[q_3\right] \left(0.\, -\text{Cos}\left[q_2\right]
+\text{Sin}\left[q_1\right]\right)+\left(0.\, -\text{Sin}\left[q_1\right] \text{Sin}\left[q_2\right]\right) \text{Sin}\left[q_3\right]\right)-\left(\left(0.\,
++\text{Cos}\left[q_1\right]\right) \text{Cos}\left[q_4\right]-\left(\text{Cos}\left[q_3\right] \left(0.\, -\text{Sin}\left[q_1\right] \text{Sin}\left[q_2\right]\right)-\left(0.\,
+-\text{Cos}\left[q_2\right] \text{Sin}\left[q_1\right]\right) \text{Sin}\left[q_3\right]\right) \text{Sin}\left[q_4\right]\right) \text{Sin}\left[q_5\right]\right\},\left\{0.\,
+-\text{Cos}\left[q_5\right] \left(-\text{Cos}\left[q_2\right] \text{Cos}\left[q_3\right]-\text{Sin}\left[q_2\right] \text{Sin}\left[q_3\right]\right)
+\text{Sin}\left[q_4\right]+\left(\text{Cos}\left[q_3\right] \text{Sin}\left[q_2\right]-\text{Cos}\left[q_2\right] \text{Sin}\left[q_3\right]\right)
+\text{Sin}\left[q_5\right],0.\, -\text{Cos}\left[q_4\right] \left(-\text{Cos}\left[q_2\right] \text{Cos}\left[q_3\right]-\text{Sin}\left[q_2\right]
+\text{Sin}\left[q_3\right]\right),0.\, +\text{Cos}\left[q_5\right] \left(\text{Cos}\left[q_3\right] \text{Sin}\left[q_2\right]-\text{Cos}\left[q_2\right]
+\text{Sin}\left[q_3\right]\right)+\left(-\text{Cos}\left[q_2\right] \text{Cos}\left[q_3\right]-\text{Sin}\left[q_2\right] \text{Sin}\left[q_3\right]\right)
+\text{Sin}\left[q_4\right] \text{Sin}\left[q_5\right]\right\}\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{S_1=D\left[R,q_1\right].\text{Transpose}[R];}\\
+\pmb{\text{wx}_1=S_1[[3,2]];}\\
+\pmb{\text{wy}_1=S_1[[1,3]];}\\
+\pmb{\text{wz}_1=S_1[[2,1]];}\\
+\pmb{}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{S_2=D\left[R,q_2\right].\text{Transpose}[R];}\\
+\pmb{\text{wx}_2=S_2[[3,2]];}\\
+\pmb{\text{wy}_2=S_2[[1,3]];}\\
+\pmb{\text{wz}_2=S_2[[2,1]];}\\
+\pmb{}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{}}\\
+\pmb{S_3=D\left[R,q_3\right].\text{Transpose}[R];}\\
+\pmb{\text{wx}_3=S_3[[3,2]];}\\
+\pmb{\text{wy}_3=S_3[[1,3]];}\\
+\pmb{\text{wz}_3=S_3[[2,1]];}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{}}\\
+\pmb{S_4=D\left[R,q_4\right].\text{Transpose}[R];}\\
+\pmb{\text{wx}_4=S_4[[3,2]];}\\
+\pmb{\text{wy}_4=S_4[[1,3]];}\\
+\pmb{\text{wz}_4=S_4[[2,1]];}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{S_5=D\left[R,q_5\right].\text{Transpose}[R];}\\
+\pmb{\text{wx}_5=S_5[[3,2]];}\\
+\pmb{\text{wy}_5=S_5[[1,3]];}\\
+\pmb{\text{wz}_5=S_5[[2,1]];}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{J=\text{FullSimplify}\left[\left\{\left\{D\left[\text{Px},q_1\right],D\left[\text{Px},q_2\right],D\left[\text{Px},q_3\right],D\left[\text{Px},q_4\right],D\left[\text{Px},q_5\right]\right\},\left\{D\left[\text{Py},q_1\right],D\left[\text{Py},q_2\right],D\left[\text{Py},q_3\right],D\left[\text{Py},q_4\right],D\left[\text{Py},q_5\right]\right\},\right.\right.}\\
+\pmb{\left.\left.\left\{D\left[\text{Pz},q_1\right],D\left[\text{Pz},q_2\right],D\left[\text{Py},q_3\right],D\left[\text{Py},q_4\right],D\left[\text{Py},q_5\right]\right\},\left\{\text{wx}_1,\text{wx}_2,\text{wx}_3,\text{wx}_4,\text{wx}_5\right\},\left\{\text{wy}_1,\text{wy}_2,\text{wy}_3,\text{wy}_4,\text{wy}_5\right\},\left\{\text{wz}_1,\text{wz}_2,\text{wz}_3,\text{wz}_4,\text{wz}_5\right\}\right\}\right]}\\
+\pmb{\text{Dimensions}[J]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{\left\{\left\{\text{Cos}\left[q_1\right] \left(367.5\, +\text{Cos}\left[q_4\right] \left(353.87\, -452. \text{Cos}\left[q_5\right]\right)\right)+\text{Sin}\left[q_1\right]
+\left(658.07\, +\text{Cos}\left[q_2\right] \left(1689.31\, +\text{Sin}\left[q_3\right] \left(-2128.98-353.87 \text{Sin}\left[q_4\right]\right)\right)-452.
+\text{Cos}\left[q_5\right] \text{Sin}\left[q_2-q_3\right] \text{Sin}\left[q_4\right]+\text{Cos}\left[q_3\right] \text{Sin}\left[q_2\right] \left(2128.98\,
++353.87 \text{Sin}\left[q_4\right]\right)+452. \text{Cos}\left[q_2-q_3\right] \text{Sin}\left[q_5\right]\right),0,0\right\},\left\{353.87 \text{Cos}\left[q_1\right]
+\left(\text{Sin}\left[q_2\right] \left(4.77382\, +\text{Sin}\left[q_3\right] \left(-6.01628-1. \text{Sin}\left[q_4\right]\right)\right)+\text{Cos}\left[q_2\right]
+\text{Cos}\left[q_3\right] \left(-6.01628-1. \text{Sin}\left[q_4\right]\right)+1.27731 \text{Cos}\left[q_2-q_3\right] \text{Cos}\left[q_5\right]
+\text{Sin}\left[q_4\right]+1.27731 \text{Sin}\left[q_2-q_3\right] \text{Sin}\left[q_5\right]\right),0,0\right\},\left\{353.87 \text{Cos}\left[q_1\right]
+\left(-1.27731 \text{Cos}\left[q_2-q_3\right] \text{Cos}\left[q_5\right] \text{Sin}\left[q_4\right]+\text{Cos}\left[q_2\right] \text{Cos}\left[q_3\right]
+\left(6.01628\, +1. \text{Sin}\left[q_4\right]\right)+\text{Sin}\left[q_2\right] \text{Sin}\left[q_3\right] \left(6.01628\, +1. \text{Sin}\left[q_4\right]\right)-1.27731
+\text{Sin}\left[q_2-q_3\right] \text{Sin}\left[q_5\right]\right),0,0\right\},\left\{\text{Cos}\left[q_1\right] \text{Cos}\left[q_4\right] \left(-353.87
+\text{Cos}\left[q_3\right] \text{Sin}\left[q_2\right]+452. \text{Cos}\left[q_5\right] \text{Sin}\left[q_2-q_3\right]+353.87 \text{Cos}\left[q_2\right]
+\text{Sin}\left[q_3\right]\right)+\left(-353.87+452. \text{Cos}\left[q_5\right]\right) \text{Sin}\left[q_1\right] \text{Sin}\left[q_4\right],0,0\right\},\left\{452.
+\text{Cos}\left[q_4\right] \text{Sin}\left[q_1\right] \text{Sin}\left[q_5\right]+\text{Cos}\left[q_1\right] \left(-452. \text{Cos}\left[q_2-q_3\right]
+\text{Cos}\left[q_5\right]-452. \text{Sin}\left[q_2-q_3\right] \text{Sin}\left[q_4\right] \text{Sin}\left[q_5\right]\right),0,0\right\}\right\},\left\{\left\{0,\left(-367.5+\text{Cos}\left[q_4\right]
+\left(-353.87+452. \text{Cos}\left[q_5\right]\right)\right) \text{Sin}\left[q_1\right]+\text{Cos}\left[q_1\right] \left(658.07\, +\text{Cos}\left[q_2\right]
+\left(1689.31\, +\text{Sin}\left[q_3\right] \left(-2128.98-353.87 \text{Sin}\left[q_4\right]\right)\right)-452. \text{Cos}\left[q_5\right] \text{Sin}\left[q_2-q_3\right]
+\text{Sin}\left[q_4\right]+\text{Cos}\left[q_3\right] \text{Sin}\left[q_2\right] \left(2128.98\, +353.87 \text{Sin}\left[q_4\right]\right)+452. \text{Cos}\left[q_2-q_3\right]
+\text{Sin}\left[q_5\right]\right),0\right\},\left\{0,-353.87 \text{Sin}\left[q_1\right] \left(\text{Sin}\left[q_2\right] \left(4.77382\, +\text{Sin}\left[q_3\right]
+\left(-6.01628-1. \text{Sin}\left[q_4\right]\right)\right)+\text{Cos}\left[q_2\right] \text{Cos}\left[q_3\right] \left(-6.01628-1. \text{Sin}\left[q_4\right]\right)+1.27731
+\text{Cos}\left[q_2-q_3\right] \text{Cos}\left[q_5\right] \text{Sin}\left[q_4\right]+1.27731 \text{Sin}\left[q_2-q_3\right] \text{Sin}\left[q_5\right]\right),0\right\},\left\{0,-353.87
+\text{Sin}\left[q_1\right] \left(-1.27731 \text{Cos}\left[q_2-q_3\right] \text{Cos}\left[q_5\right] \text{Sin}\left[q_4\right]+\text{Cos}\left[q_2\right]
+\text{Cos}\left[q_3\right] \left(6.01628\, +1. \text{Sin}\left[q_4\right]\right)+\text{Sin}\left[q_2\right] \text{Sin}\left[q_3\right] \left(6.01628\,
++1. \text{Sin}\left[q_4\right]\right)-1.27731 \text{Sin}\left[q_2-q_3\right] \text{Sin}\left[q_5\right]\right),0\right\},\left\{0,\text{Cos}\left[q_4\right]
+\text{Sin}\left[q_1\right] \left(353.87 \text{Cos}\left[q_3\right] \text{Sin}\left[q_2\right]-452. \text{Cos}\left[q_5\right] \text{Sin}\left[q_2-q_3\right]-353.87
+\text{Cos}\left[q_2\right] \text{Sin}\left[q_3\right]\right)+452. \text{Cos}\left[q_1\right] \left(-0.782898+\text{Cos}\left[q_5\right]\right) \text{Sin}\left[q_4\right],0\right\},\left\{0,452.
+\text{Cos}\left[q_2-q_3\right] \text{Cos}\left[q_5\right] \text{Sin}\left[q_1\right]+\left(452. \text{Cos}\left[q_1\right] \text{Cos}\left[q_4\right]+452.
+\text{Sin}\left[q_1\right] \text{Sin}\left[q_2-q_3\right] \text{Sin}\left[q_4\right]\right) \text{Sin}\left[q_5\right],0\right\}\right\},\left\{\{0,0,0\},\left\{0,0,\text{Cos}\left[q_3\right]
+\text{Sin}\left[q_2\right] \left(-2128.98+\left(-353.87+452. \text{Cos}\left[q_5\right]\right) \text{Sin}\left[q_4\right]\right)+\text{Cos}\left[q_2\right]
+\left(-1689.31+\text{Sin}\left[q_3\right] \left(2128.98\, +\left(353.87\, -452. \text{Cos}\left[q_5\right]\right) \text{Sin}\left[q_4\right]\right)\right)-452.
+\text{Cos}\left[q_2-q_3\right] \text{Sin}\left[q_5\right]\right\},\left\{0,-353.87 \text{Sin}\left[q_1\right] \left(-1.27731 \text{Cos}\left[q_2-q_3\right]
+\text{Cos}\left[q_5\right] \text{Sin}\left[q_4\right]+\text{Cos}\left[q_2\right] \text{Cos}\left[q_3\right] \left(6.01628\, +1. \text{Sin}\left[q_4\right]\right)+\text{Sin}\left[q_2\right]
+\text{Sin}\left[q_3\right] \left(6.01628\, +1. \text{Sin}\left[q_4\right]\right)-1.27731 \text{Sin}\left[q_2-q_3\right] \text{Sin}\left[q_5\right]\right),0\right\},\left\{0,\text{Cos}\left[q_4\right]
+\text{Sin}\left[q_1\right] \left(353.87 \text{Cos}\left[q_3\right] \text{Sin}\left[q_2\right]-452. \text{Cos}\left[q_5\right] \text{Sin}\left[q_2-q_3\right]-353.87
+\text{Cos}\left[q_2\right] \text{Sin}\left[q_3\right]\right)+452. \text{Cos}\left[q_1\right] \left(-0.782898+\text{Cos}\left[q_5\right]\right) \text{Sin}\left[q_4\right],0\right\},\left\{0,452.
+\text{Cos}\left[q_2-q_3\right] \text{Cos}\left[q_5\right] \text{Sin}\left[q_1\right]+\left(452. \text{Cos}\left[q_1\right] \text{Cos}\left[q_4\right]+452.
+\text{Sin}\left[q_1\right] \text{Sin}\left[q_2-q_3\right] \text{Sin}\left[q_4\right]\right) \text{Sin}\left[q_5\right],0\right\}\right\},\left\{0,-\text{Sin}\left[q_1\right],\text{Sin}\left[q_1\right],\text{Cos}\left[q_1\right]
+\text{Cos}\left[q_2-q_3\right],\text{Cos}\left[q_1\right] \text{Cos}\left[q_4\right] \text{Sin}\left[q_2-q_3\right]+\text{Sin}\left[q_1\right] \text{Sin}\left[q_4\right]\right\},\left\{0,-\text{Cos}\left[q_1\right],\text{Cos}\left[q_1\right],-\text{Cos}\left[q_2-q_3\right]
+\text{Sin}\left[q_1\right],-\text{Cos}\left[q_4\right] \text{Sin}\left[q_1\right] \text{Sin}\left[q_2-q_3\right]+\text{Cos}\left[q_1\right] \text{Sin}\left[q_4\right]\right\},\left\{-1,0,0,\text{Sin}\left[q_2-q_3\right],-\text{Cos}\left[q_2-q_3\right]
+\text{Cos}\left[q_4\right]\right\}\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\{6,5\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{Simplify}[\text{A34}]\text{//}\text{MatrixForm}}\\
+\pmb{\text{Simplify}[\text{A45}]\text{//}\text{MatrixForm}}\\
+\pmb{\text{Simplify}[\text{A05}]\text{//}\text{MatrixForm}}\\
+\pmb{\text{FullSimplify}[\text{Px}]\text{//}\text{MatrixForm}}\\
+\pmb{\text{FullSimplify}[\text{Py}]\text{//}\text{MatrixForm}}\\
+\pmb{\text{FullSimplify}[\text{Pz}]\text{//}\text{MatrixForm}}\\
+\pmb{\text{FullSimplify}[R]\text{//}\text{MatrixForm}}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left(
+\begin{array}{cccc}
+ -\text{Sin}\left[q_4\right] & 0 & \text{Cos}\left[q_4\right] & -353.87 \text{Sin}\left[q_4\right] \\
+ \text{Cos}\left[q_4\right] & 0 & \text{Sin}\left[q_4\right] & 353.87 \text{Cos}\left[q_4\right] \\
+ 0 & 1 & 0 & 0 \\
+ 0 & 0 & 0 & 1 \\
+\end{array}
+\right)\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left(
+\begin{array}{cccc}
+ \text{Cos}\left[q_5\right] & 0 & -\text{Sin}\left[q_5\right] & -452 \text{Cos}\left[q_5\right] \\
+ \text{Sin}\left[q_5\right] & 0 & \text{Cos}\left[q_5\right] & -452 \text{Sin}\left[q_5\right] \\
+ 0 & -1 & 0 & 0 \\
+ 0 & 0 & 0 & 1 \\
+\end{array}
+\right)\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left(
+\begin{array}{cccc}
+ \text{Cos}\left[q_4\right] \text{Cos}\left[q_5\right] \text{Sin}\left[q_1\right]+\text{Cos}\left[q_1\right] \left(-\text{Cos}\left[q_5\right] \text{Sin}\left[q_2-q_3\right]
+\text{Sin}\left[q_4\right]+\text{Cos}\left[q_2-q_3\right] \text{Sin}\left[q_5\right]\right) & -\text{Cos}\left[q_1\right] \text{Cos}\left[q_4\right]
+\text{Sin}\left[q_2-q_3\right]-\text{Sin}\left[q_1\right] \text{Sin}\left[q_4\right] & -\text{Cos}\left[q_4\right] \text{Sin}\left[q_1\right] \text{Sin}\left[q_5\right]+\text{Cos}\left[q_1\right]
+\left(\text{Cos}\left[q_2-q_3\right] \text{Cos}\left[q_5\right]+\text{Sin}\left[q_2-q_3\right] \text{Sin}\left[q_4\right] \text{Sin}\left[q_5\right]\right)
+& -452. \left(-0.813053+\text{Cos}\left[q_4\right] \left(-0.782898+\text{Cos}\left[q_5\right]\right)\right) \text{Sin}\left[q_1\right]+353.87 \text{Cos}\left[q_1\right]
+\left(-1.85964+\text{Cos}\left[q_3\right] \text{Sin}\left[q_2\right] \left(-6.01628-1. \text{Sin}\left[q_4\right]\right)+1.27731 \text{Cos}\left[q_5\right]
+\text{Sin}\left[q_2-q_3\right] \text{Sin}\left[q_4\right]+\text{Cos}\left[q_2\right] \left(-4.77382+\text{Sin}\left[q_3\right] \left(6.01628\, +1.
+\text{Sin}\left[q_4\right]\right)\right)-1.27731 \text{Cos}\left[q_2-q_3\right] \text{Sin}\left[q_5\right]\right) \\
+ \text{Cos}\left[q_1\right] \text{Cos}\left[q_4\right] \text{Cos}\left[q_5\right]+\text{Sin}\left[q_1\right] \left(\text{Cos}\left[q_5\right] \text{Sin}\left[q_2-q_3\right]
+\text{Sin}\left[q_4\right]-\text{Cos}\left[q_2-q_3\right] \text{Sin}\left[q_5\right]\right) & \text{Cos}\left[q_3\right] \text{Cos}\left[q_4\right]
+\text{Sin}\left[q_1\right] \text{Sin}\left[q_2\right]-\text{Cos}\left[q_2\right] \text{Cos}\left[q_4\right] \text{Sin}\left[q_1\right] \text{Sin}\left[q_3\right]-\text{Cos}\left[q_1\right]
+\text{Sin}\left[q_4\right] & -\text{Cos}\left[q_2-q_3\right] \text{Cos}\left[q_5\right] \text{Sin}\left[q_1\right]-\left(\text{Cos}\left[q_1\right]
+\text{Cos}\left[q_4\right]+\text{Sin}\left[q_1\right] \text{Sin}\left[q_2-q_3\right] \text{Sin}\left[q_4\right]\right) \text{Sin}\left[q_5\right]
+& -452. \text{Cos}\left[q_1\right] \left(-0.813053+\text{Cos}\left[q_4\right] \left(-0.782898+\text{Cos}\left[q_5\right]\right)\right)-353.87 \text{Sin}\left[q_1\right]
+\left(-1.85964+\text{Cos}\left[q_3\right] \text{Sin}\left[q_2\right] \left(-6.01628-1. \text{Sin}\left[q_4\right]\right)+1.27731 \text{Cos}\left[q_5\right]
+\text{Sin}\left[q_2-q_3\right] \text{Sin}\left[q_4\right]+\text{Cos}\left[q_2\right] \left(-4.77382+\text{Sin}\left[q_3\right] \left(6.01628\, +1.
+\text{Sin}\left[q_4\right]\right)\right)-1.27731 \text{Cos}\left[q_2-q_3\right] \text{Sin}\left[q_5\right]\right) \\
+ \text{Cos}\left[q_2-q_3\right] \text{Cos}\left[q_5\right] \text{Sin}\left[q_4\right]+\text{Sin}\left[q_2-q_3\right] \text{Sin}\left[q_5\right] &
+\text{Cos}\left[q_2-q_3\right] \text{Cos}\left[q_4\right] & \text{Cos}\left[q_5\right] \text{Sin}\left[q_2-q_3\right]-\text{Cos}\left[q_2-q_3\right]
+\text{Sin}\left[q_4\right] \text{Sin}\left[q_5\right] & -452. \left(-2.50885+\text{Sin}\left[q_2\right] \left(3.73741\, +\text{Sin}\left[q_3\right]
+\left(-4.71013+\left(-0.782898+\text{Cos}\left[q_5\right]\right) \text{Sin}\left[q_4\right]\right)+\text{Cos}\left[q_3\right] \text{Sin}\left[q_5\right]\right)+\text{Cos}\left[q_2\right]
+\left(\text{Cos}\left[q_3\right] \left(-4.71013+\left(-0.782898+\text{Cos}\left[q_5\right]\right) \text{Sin}\left[q_4\right]\right)-1. \text{Sin}\left[q_3\right]
+\text{Sin}\left[q_5\right]\right)\right) \\
+ 0. & 0. & 0. & 1. \\
+\end{array}
+\right)\)
+\end{doublespace}
+
+
+\begin{doublespace}
+\noindent\(\pmb{\text{FullSimplify}\left[D\left[\text{Px},q_1\right]\right]}\\
+\pmb{\text{FullSimplify}\left[D\left[\text{Px},q_2\right]\right]}\\
+\pmb{\text{FullSimplify}\left[D\left[\text{Px},q_3\right]\right]}\\
+\pmb{\text{FullSimplify}\left[D\left[\text{Px},q_4\right]\right]}\\
+\pmb{\text{FullSimplify}\left[D\left[\text{Px},q_5\right]\right]}\\
+\pmb{\text{FullSimplify}\left[D\left[\text{Py},q_1\right]\right]}\\
+\pmb{\text{FullSimplify}\left[D\left[\text{Py},q_2\right]\right]}\\
+\pmb{\text{FullSimplify}\left[D\left[\text{Py},q_3\right]\right]}\\
+\pmb{\text{FullSimplify}\left[D\left[\text{Py},q_4\right]\right]}\\
+\pmb{\text{FullSimplify}\left[D\left[\text{Py},q_5\right]\right]}\\
+\pmb{\text{FullSimplify}\left[D\left[\text{Pz},q_1\right]\right]}\\
+\pmb{\text{FullSimplify}\left[D\left[\text{Pz},q_2\right]\right]}\\
+\pmb{\text{FullSimplify}\left[D\left[\text{Pz},q_3\right]\right]}\\
+\pmb{\text{FullSimplify}\left[D\left[\text{Pz},q_4\right]\right]}\\
+\pmb{\text{FullSimplify}\left[D\left[\text{Pz},q_5\right]\right]}\\
+\pmb{}\\
+\pmb{\text{Simplify}\left[\text{wx}_1\right]}\\
+\pmb{\text{Simplify}\left[\text{wy}_1\right]}\\
+\pmb{\text{Simplify}\left[\text{wz}_1\right]}\\
+\pmb{\text{Simplify}\left[\text{wx}_2\right]}\\
+\pmb{\text{Simplify}\left[\text{wy}_2\right]}\\
+\pmb{\text{Simplify}\left[\text{wz}_2\right]}\\
+\pmb{\text{Simplify}\left[\text{wx}_3\right]}\\
+\pmb{\text{Simplify}\left[\text{wy}_3\right]}\\
+\pmb{\text{Simplify}\left[\text{wz}_3\right]}\\
+\pmb{\text{Simplify}\left[\text{wx}_4\right]}\\
+\pmb{\text{Simplify}\left[\text{wy}_4\right]}\\
+\pmb{\text{Simplify}\left[\text{wz}_4\right]}\\
+\pmb{\text{Simplify}\left[\text{wx}_5\right]}\\
+\pmb{\text{Simplify}\left[\text{wy}_5\right]}\\
+\pmb{\text{Simplify}\left[\text{wz}_5\right]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{\text{Cos}\left[q_1\right] \left(367.5\, +\text{Cos}\left[q_4\right] \left(353.87\, -452. \text{Cos}\left[q_5\right]\right)\right)+\text{Sin}\left[q_1\right]
+\left(658.07\, +\text{Cos}\left[q_2\right] \left(1689.31\, +\text{Sin}\left[q_3\right] \left(-2128.98-353.87 \text{Sin}\left[q_4\right]\right)\right)-452.
+\text{Cos}\left[q_5\right] \text{Sin}\left[q_2-q_3\right] \text{Sin}\left[q_4\right]+\text{Cos}\left[q_3\right] \text{Sin}\left[q_2\right] \left(2128.98\,
++353.87 \text{Sin}\left[q_4\right]\right)+452. \text{Cos}\left[q_2-q_3\right] \text{Sin}\left[q_5\right]\right),0,0\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{353.87 \text{Cos}\left[q_1\right] \left(\text{Sin}\left[q_2\right] \left(4.77382\, +\text{Sin}\left[q_3\right] \left(-6.01628-1.
+\text{Sin}\left[q_4\right]\right)\right)+\text{Cos}\left[q_2\right] \text{Cos}\left[q_3\right] \left(-6.01628-1. \text{Sin}\left[q_4\right]\right)+1.27731
+\text{Cos}\left[q_2-q_3\right] \text{Cos}\left[q_5\right] \text{Sin}\left[q_4\right]+1.27731 \text{Sin}\left[q_2-q_3\right] \text{Sin}\left[q_5\right]\right),0,0\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{353.87 \text{Cos}\left[q_1\right] \left(-1.27731 \text{Cos}\left[q_2-q_3\right] \text{Cos}\left[q_5\right] \text{Sin}\left[q_4\right]+\text{Cos}\left[q_2\right]
+\text{Cos}\left[q_3\right] \left(6.01628\, +1. \text{Sin}\left[q_4\right]\right)+\text{Sin}\left[q_2\right] \text{Sin}\left[q_3\right] \left(6.01628\,
++1. \text{Sin}\left[q_4\right]\right)-1.27731 \text{Sin}\left[q_2-q_3\right] \text{Sin}\left[q_5\right]\right),0,0\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{\text{Cos}\left[q_1\right] \text{Cos}\left[q_4\right] \left(-353.87 \text{Cos}\left[q_3\right] \text{Sin}\left[q_2\right]+452.
+\text{Cos}\left[q_5\right] \text{Sin}\left[q_2-q_3\right]+353.87 \text{Cos}\left[q_2\right] \text{Sin}\left[q_3\right]\right)+\left(-353.87+452.
+\text{Cos}\left[q_5\right]\right) \text{Sin}\left[q_1\right] \text{Sin}\left[q_4\right],0,0\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{452. \text{Cos}\left[q_4\right] \text{Sin}\left[q_1\right] \text{Sin}\left[q_5\right]+\text{Cos}\left[q_1\right] \left(-452. \text{Cos}\left[q_2-q_3\right]
+\text{Cos}\left[q_5\right]-452. \text{Sin}\left[q_2-q_3\right] \text{Sin}\left[q_4\right] \text{Sin}\left[q_5\right]\right),0,0\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{0,\left(-367.5+\text{Cos}\left[q_4\right] \left(-353.87+452. \text{Cos}\left[q_5\right]\right)\right) \text{Sin}\left[q_1\right]+\text{Cos}\left[q_1\right]
+\left(658.07\, +\text{Cos}\left[q_2\right] \left(1689.31\, +\text{Sin}\left[q_3\right] \left(-2128.98-353.87 \text{Sin}\left[q_4\right]\right)\right)-452.
+\text{Cos}\left[q_5\right] \text{Sin}\left[q_2-q_3\right] \text{Sin}\left[q_4\right]+\text{Cos}\left[q_3\right] \text{Sin}\left[q_2\right] \left(2128.98\,
++353.87 \text{Sin}\left[q_4\right]\right)+452. \text{Cos}\left[q_2-q_3\right] \text{Sin}\left[q_5\right]\right),0\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{0,-353.87 \text{Sin}\left[q_1\right] \left(\text{Sin}\left[q_2\right] \left(4.77382\, +\text{Sin}\left[q_3\right] \left(-6.01628-1.
+\text{Sin}\left[q_4\right]\right)\right)+\text{Cos}\left[q_2\right] \text{Cos}\left[q_3\right] \left(-6.01628-1. \text{Sin}\left[q_4\right]\right)+1.27731
+\text{Cos}\left[q_2-q_3\right] \text{Cos}\left[q_5\right] \text{Sin}\left[q_4\right]+1.27731 \text{Sin}\left[q_2-q_3\right] \text{Sin}\left[q_5\right]\right),0\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{0,-353.87 \text{Sin}\left[q_1\right] \left(-1.27731 \text{Cos}\left[q_2-q_3\right] \text{Cos}\left[q_5\right] \text{Sin}\left[q_4\right]+\text{Cos}\left[q_2\right]
+\text{Cos}\left[q_3\right] \left(6.01628\, +1. \text{Sin}\left[q_4\right]\right)+\text{Sin}\left[q_2\right] \text{Sin}\left[q_3\right] \left(6.01628\,
++1. \text{Sin}\left[q_4\right]\right)-1.27731 \text{Sin}\left[q_2-q_3\right] \text{Sin}\left[q_5\right]\right),0\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{0,\text{Cos}\left[q_4\right] \text{Sin}\left[q_1\right] \left(353.87 \text{Cos}\left[q_3\right] \text{Sin}\left[q_2\right]-452.
+\text{Cos}\left[q_5\right] \text{Sin}\left[q_2-q_3\right]-353.87 \text{Cos}\left[q_2\right] \text{Sin}\left[q_3\right]\right)+452. \text{Cos}\left[q_1\right]
+\left(-0.782898+\text{Cos}\left[q_5\right]\right) \text{Sin}\left[q_4\right],0\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{0,452. \text{Cos}\left[q_2-q_3\right] \text{Cos}\left[q_5\right] \text{Sin}\left[q_1\right]+\left(452. \text{Cos}\left[q_1\right]
+\text{Cos}\left[q_4\right]+452. \text{Sin}\left[q_1\right] \text{Sin}\left[q_2-q_3\right] \text{Sin}\left[q_4\right]\right) \text{Sin}\left[q_5\right],0\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\{0,0,0\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{0,0,\text{Cos}\left[q_3\right] \text{Sin}\left[q_2\right] \left(-2128.98+\left(-353.87+452. \text{Cos}\left[q_5\right]\right) \text{Sin}\left[q_4\right]\right)+\text{Cos}\left[q_2\right]
+\left(-1689.31+\text{Sin}\left[q_3\right] \left(2128.98\, +\left(353.87\, -452. \text{Cos}\left[q_5\right]\right) \text{Sin}\left[q_4\right]\right)\right)-452.
+\text{Cos}\left[q_2-q_3\right] \text{Sin}\left[q_5\right]\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{0,0,-452. \text{Cos}\left[q_3\right] \left(\text{Sin}\left[q_2\right] \left(-4.71013+\left(-0.782898+\text{Cos}\left[q_5\right]\right)
+\text{Sin}\left[q_4\right]\right)-1. \text{Cos}\left[q_2\right] \text{Sin}\left[q_5\right]\right)+452. \text{Sin}\left[q_3\right] \left(\text{Cos}\left[q_2\right]
+\left(-4.71013+\left(-0.782898+\text{Cos}\left[q_5\right]\right) \text{Sin}\left[q_4\right]\right)+\text{Sin}\left[q_2\right] \text{Sin}\left[q_5\right]\right)\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{0,0,-452. \text{Cos}\left[q_2-q_3\right] \text{Cos}\left[q_4\right] \left(-0.782898+\text{Cos}\left[q_5\right]\right)\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{0,0,-452. \left(\text{Cos}\left[q_3\right] \left(\text{Cos}\left[q_5\right] \text{Sin}\left[q_2\right]-\text{Cos}\left[q_2\right]
+\text{Sin}\left[q_4\right] \text{Sin}\left[q_5\right]\right)+\text{Sin}\left[q_3\right] \left(-1. \text{Cos}\left[q_2\right] \text{Cos}\left[q_5\right]-\text{Sin}\left[q_2\right]
+\text{Sin}\left[q_4\right] \text{Sin}\left[q_5\right]\right)\right)\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(0\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(0\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(-1\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(-\text{Sin}\left[q_1\right]\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(-\text{Cos}\left[q_1\right]\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(0\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\text{Sin}\left[q_1\right]\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\text{Cos}\left[q_1\right]\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(0\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\text{Cos}\left[q_1\right] \text{Cos}\left[q_2-q_3\right]\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(-\text{Cos}\left[q_2-q_3\right] \text{Sin}\left[q_1\right]\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\text{Sin}\left[q_2-q_3\right]\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\text{Cos}\left[q_1\right] \text{Cos}\left[q_4\right] \text{Sin}\left[q_2-q_3\right]+\text{Sin}\left[q_1\right] \text{Sin}\left[q_4\right]\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(-\text{Cos}\left[q_3\right] \text{Cos}\left[q_4\right] \text{Sin}\left[q_1\right] \text{Sin}\left[q_2\right]+\text{Cos}\left[q_2\right]
+\text{Cos}\left[q_4\right] \text{Sin}\left[q_1\right] \text{Sin}\left[q_3\right]+\text{Cos}\left[q_1\right] \text{Sin}\left[q_4\right]\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(-\text{Cos}\left[q_2-q_3\right] \text{Cos}\left[q_4\right]\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{}}\\
+\pmb{\text{FullSimplify}\left[\left\{\left\{\text{wx}_1,\text{wx}_2,\text{wx}_3,\text{wx}_4,\text{wx}_5\right\},\left\{\text{wy}_1,\text{wy}_2,\text{wy}_3,\text{wy}_4,\text{wy}_5\right\},\left\{\text{wz}_1,\text{wz}_2,\text{wz}_3,\text{wz}_4,\text{wz}_5\right\}\right\}\right]\text{//}\text{MatrixForm}}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left(
+\begin{array}{ccccc}
+ 0 & -\text{Sin}\left[q_1\right] & \text{Sin}\left[q_1\right] & \text{Cos}\left[q_1\right] \text{Cos}\left[q_2-q_3\right] & \text{Cos}\left[q_1\right]
+\text{Cos}\left[q_4\right] \text{Sin}\left[q_2-q_3\right]+\text{Sin}\left[q_1\right] \text{Sin}\left[q_4\right] \\
+ 0 & -\text{Cos}\left[q_1\right] & \text{Cos}\left[q_1\right] & -\text{Cos}\left[q_2-q_3\right] \text{Sin}\left[q_1\right] & -\text{Cos}\left[q_4\right]
+\text{Sin}\left[q_1\right] \text{Sin}\left[q_2-q_3\right]+\text{Cos}\left[q_1\right] \text{Sin}\left[q_4\right] \\
+ -1 & 0 & 0 & \text{Sin}\left[q_2-q_3\right] & -\text{Cos}\left[q_2-q_3\right] \text{Cos}\left[q_4\right] \\
+\end{array}
+\right)\)
+\end{doublespace}
+
+\end{document}

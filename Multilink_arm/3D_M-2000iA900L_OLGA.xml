@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="03/05/21||21:59:59" using="Simscape Multibody Link Version 7.0" from="SolidWorks 28.3.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="3D_M-2000iA900L-3" uid="3D_M-2000iA900L-3" version="385">
+<AssemblyFile name="3D_M-2000iA900L-3.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="T403-1" uid="T403-1" entityUid="T403*:*Predeterminado">
+<Transform>
+<Rotation>-0.18454969444664188 0.97588933302057812 -0.11653934947605804 -0.82514064615168659 -0.21826591510506546 -0.52105940579911381 -0.53393288374853665 -3.4800861145102468e-15 0.8455268627618947</Rotation>
+<Translation>0.45646063845454554 2.0408824153653544 0.63613420057630976</Translation>
+</Transform>
+</Instance>
+<Instance name="Cabina-2" uid="Cabina-2" entityUid="Cabina*:*Predeterminado">
+<Transform>
+<Rotation>-0.77494089564544844 -0.51263594795891743 -0.3696904017099879 0.065864935338688813 -0.64723871352152751 0.75943653981871861 -0.62859241050863823 0.56416879794903596 0.53533648191738192</Rotation>
+<Translation>-0.031417668745086558 -3.4537823028592092 0.63780292499236158</Translation>
+</Transform>
+</Instance>
+<Instance name="T501_A-6" uid="T501_A-6" entityUid="T501_A*:*Predeterminado">
+<Transform>
+<Rotation>-0.15968627396750107 -0.055093365645376466 0.98562924823091613 -0.82402934832981256 0.55722393647434476 -0.10235779262557219 -0.54357697430770591 -0.82853256163044087 -0.13437956437114729</Rotation>
+<Translation>-3.4432351956545317 -0.053144162130657202 3.4936733477913595</Translation>
+</Transform>
+</Instance>
+<Instance name="T501_C-1" uid="T501_C-1" entityUid="T501_C*:*Predeterminado">
+<Transform>
+<Rotation>-0.15968627396750132 0.32039673140055702 -0.93372706312616593 -0.82402934832981256 -0.56409661035161474 -0.052636938369959169 -0.54357697430770613 0.7610131067844087 0.35409479564774965</Rotation>
+<Translation>3.1199464861545199 0.46835548196846954 2.3111710152750162</Translation>
+</Transform>
+</Instance>
+<Instance name="T501_D-6" uid="T501_D-6" entityUid="T501_D*:*Predeterminado">
+<Transform>
+<Rotation>0.36969040170998785 -0.6580356101775714 0.65598638905219597 -0.7594365398187185 0.19277209005099427 0.62136548285654158 -0.53533648191738215 -0.72789288843593092 -0.42847029546132792</Rotation>
+<Translation>-3.9164741109246632 -2.6701037043587781 4.4543206296202689</Translation>
+</Transform>
+</Instance>
+<Instance name="T501_D-1" uid="T501_D-1" entityUid="T501_D*:*Predeterminado">
+<Transform>
+<Rotation>-0.15968627396750165 0.98707194568516665 0.013757468796109579 -0.82402934832981278 -0.12560979257142682 -0.55244711339756969 -0.54357697430770557 -0.099554779149285816 0.83343441190714984</Rotation>
+<Translation>-0.05412669578510837 2.1427195683109046 0.70538330080604406</Translation>
+</Transform>
+</Instance>
+<Instance name="T301_F-1" uid="T301_F-1" entityUid="T301_F*:*Predeterminado">
+<Transform>
+<Rotation>-0.10759844074962265 0.49856189641266863 0.86015034208773844 -0.97991570621767787 -0.1992868156211722 -0.0070692168931715954 0.16789218044971524 -0.84363546663530942 0.50999158343924067</Rotation>
+<Translation>-1.2524227446759453 -0.28094698365346982 0.32271680976839023</Translation>
+</Transform>
+</Instance>
+<Instance name="T301_E-1" uid="T301_E-1" entityUid="T301_E*:*Predeterminado">
+<Transform>
+<Rotation>-0.21252084307176383 0.97588933302057801 0.049748376422934837 -0.95020252565977836 -0.2182659151050646 0.22243010257860113 0.22792553935407295 -2.834348674968772e-15 0.97367856529254815</Rotation>
+<Translation>-0.059377176695194343 -0.31816948298264802 -0.095778798054117584</Translation>
+</Transform>
+</Instance>
+<Instance name="T501_A-1" uid="T501_A-1" entityUid="T501_A*:*Predeterminado">
+<Transform>
+<Rotation>-0.18454969444664196 0.32039673140055669 -0.92913257653980175 -0.82514064615168625 -0.56409661035161551 -0.030625614413352403 -0.53393288374853698 0.76101310678440826 0.36847622305152072</Rotation>
+<Translation>3.1786479491180395 0.39792921422302152 2.2342538436060617</Translation>
+</Transform>
+</Instance>
+<Instance name="T301_A-1" uid="T301_A-1" entityUid="T301_A*:*Predeterminado">
+<Transform>
+<Rotation>-0.21826591510506493 0.97588933302057801 1.8952386428022543e-15 -0.97588933302057801 -0.21826591510506493 3.9561651001497351e-15 4.2744453176181291e-15 -9.8604717914821406e-16 0.99999999999999989</Rotation>
+<Translation>0 0 0.0030000000000000426</Translation>
+</Transform>
+</Instance>
+<Instance name="T303_C-1" uid="T303_C-1" entityUid="T303_C*:*Predeterminado">
+<Transform>
+<Rotation>-0.18454969444669145 0.97588933302057823 -0.11653934947597863 -0.82514064615192495 -0.21826591510506502 -0.52105940579873689 -0.53393288374815129 2.5146259043628678e-15 0.84552686276213784</Rotation>
+<Translation>0.13464304398968419 0.60200288410452918 0.47078152028357145</Translation>
+</Transform>
+</Instance>
+<Instance name="T201_A-1" uid="T201_A-1" grounded="true" entityUid="T201_A*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="T501_C-6" uid="T501_C-6" entityUid="T501_C*:*Predeterminado">
+<Transform>
+<Rotation>0.36969040170998735 -0.055093365645376556 0.92752020352409192 -0.75943653981871906 0.55722393647434454 0.33579402408054637 -0.5353364819173817 -0.82853256163044087 0.16416042594492872</Rotation>
+<Translation>-4.8261123894055613 -1.7134393174591938 2.4690077129093511</Translation>
+</Transform>
+</Instance>
+<Instance name="T301_D-1" uid="T301_D-1" entityUid="T301_D*:*Predeterminado">
+<Transform>
+<Rotation>-0.20577960861080061 0.97588933302057823 0.07276511785626831 -0.92006177373029185 -0.21826591510506374 0.32534031847223976 0.33337829143520281 -1.2384622879374506e-15 0.94279314528678293</Rotation>
+<Translation>-0.10903873379419615 -0.52875748895689245 0.60452870555615901</Translation>
+</Transform>
+</Instance>
+<Instance name="T301_B-1" uid="T301_B-1" entityUid="T301_B*:*Predeterminado">
+<Transform>
+<Rotation>-0.20577960861081965 0.9758893330205779 0.072765117856219752 -0.92006177373037012 -0.21826591510506552 0.32534031847201672 0.33337829143497444 -1.9740145299482506e-15 0.94279314528686342</Rotation>
+<Translation>-0.10083780646020454 -0.45085619365872043 -0.089320234590407208</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincidente1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T301_A-1</Uid>
+</InstancePath>
+<Position>1.5820678100908502e-15 -4.0435175101681019e-16 0.30699999999999988</Position>
+<Axis>-4.3031411605011157e-15 1.1108564588373994e-15 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T201_A-1</Uid>
+</InstancePath>
+<Position>0 0 0.31</Position>
+<Axis>1.28102656687518e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T303_C-1</Uid>
+</InstancePath>
+<Position>0.50000000000000044 0.44300000000001416 1.3000000000000005</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T301_A-1</Uid>
+</InstancePath>
+<Position>0.50000000000000011 0.44300000000000006 1.2999999999999996</Position>
+<Axis>4.9960036108131522e-16 1 -2.3955160769046181e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T303_C-1</Uid>
+</InstancePath>
+<Position>0.50000000000000044 0.44300000000001416 1.3000000000000005</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T301_A-1</Uid>
+</InstancePath>
+<Position>0.50000000000000011 0.44300000000000006 1.2999999999999996</Position>
+<Axis>-4.9960036108131522e-16 -1 2.3955160769046181e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Paralelo6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>T301_D-1</Uid>
+</InstancePath>
+<Position>-0.30000000000003058 0.063999999999996615 1.2999999999999436</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>T303_C-1</Uid>
+</InstancePath>
+<Position>-0.30000000000003013 0.31550000000000006 1.2999999999999499</Position>
+<Axis>-1.1583720909684054e-15 -1.0000000000000002 3.9390789010380592e-15</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concéntrica6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>T301_D-1</Uid>
+</InstancePath>
+<Position>-0.30000000000003058 0.063999999999996615 1.2999999999999436</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>T303_C-1</Uid>
+</InstancePath>
+<Position>-0.30000000000003013 0.31550000000000006 1.2999999999999499</Position>
+<Axis>-1.1583720909684054e-15 -1.0000000000000002 3.9390789010380592e-15</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T301_D-1</Uid>
+</InstancePath>
+<Position>-0.30000000000003069 0.42099999999999993 1.2999999999999436</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T303_C-1</Uid>
+</InstancePath>
+<Position>-1.3717177354115337 0.4300000000000137 1.8660576078626252</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica7">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T303_C-1</Uid>
+</InstancePath>
+<Position>0.50000000000000044 0.25600000000000006 1.3000000000000003</Position>
+<Axis>-6.2475464499918708e-16 -1.0000000000000002 2.3584457597743198e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T301_B-1</Uid>
+</InstancePath>
+<Position>0.49999999999999967 0.256000000000005 1.2999999999999994</Position>
+<Axis>0 -1 1.7197545209536377e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T303_C-1</Uid>
+</InstancePath>
+<Position>0.50000000000000044 0.25600000000000006 1.3000000000000003</Position>
+<Axis>-6.2475464499918708e-16 -1.0000000000000002 2.3584457597743198e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T301_B-1</Uid>
+</InstancePath>
+<Position>0.49999999999999967 0.256000000000005 1.2999999999999994</Position>
+<Axis>0 1 -1.7197545209536377e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>T301_E-1</Uid>
+</InstancePath>
+<Position>0.29796608653102252 -0.27099999999999996 1.2264656691849802</Position>
+<Axis>6.2584032326671528e-16 1 8.2549349157365296e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>T301_B-1</Uid>
+</InstancePath>
+<Position>0.2979660865310223 -0.28699999999999998 1.2264656691849796</Position>
+<Axis>-1.2524266913160767e-16 1 -7.6174734630932795e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente30">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T301_E-1</Uid>
+</InstancePath>
+<Position>0.16446686304749247 -0.191 1.3168548683699219</Position>
+<Axis>6.8276131368295041e-16 1 8.1763841714325215e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T301_B-1</Uid>
+</InstancePath>
+<Position>0.29796608653102585 -0.17950000000000352 1.2264656691849798</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente31">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T301_F-1</Uid>
+</InstancePath>
+<Position>-0.74354760345913795 -0.23099999999999998 1.361310009444592</Position>
+<Axis>0.99172272975738107 -7.9103390504542404e-16 -0.12839792553841659</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T301_E-1</Uid>
+</InstancePath>
+<Position>-0.50199103993572081 -0.13169439402985894 1.1615451098107479</Position>
+<Axis>-0.99172272975738096 0 0.12839792553841656</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>T301_F-1</Uid>
+</InstancePath>
+<Position>-0.74354760345913795 -0.23099999999999998 1.361310009444592</Position>
+<Axis>0.99172272975738107 -7.7715611723760958e-16 -0.12839792553841661</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>T301_E-1</Uid>
+</InstancePath>
+<Position>0.10160498603905715 -0.23099999999999998 1.2518884584415859</Position>
+<Axis>-0.99172272975738096 5.6388344535188262e-16 0.12839792553841656</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente32">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T403-1</Uid>
+</InstancePath>
+<Position>0.5 0.42199999999999999 3.0000000000000004</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T301_B-1</Uid>
+</InstancePath>
+<Position>0.49999999999999323 0.42200000000000004 3.0000000000000582</Position>
+<Axis>2.1041782475044422e-15 -1 -3.7055126393458482e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente39">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T403-1</Uid>
+</InstancePath>
+<Position>2.6000000000000001 -2.5229280231553818e-16 3.350000000000001</Position>
+<Axis>1 -1.4026902951158504e-16 -2.2204460492503131e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T501_A-1</Uid>
+</InstancePath>
+<Position>2.599999999999965 -4.4408920985006262e-16 3.3499999999999543</Position>
+<Axis>1.0000000000000002 1.1102230246251565e-16 -2.2204460492503131e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente40">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T501_C-1</Uid>
+</InstancePath>
+<Position>2.9799999999999605 -0.10799999999999876 3.3499999999999543</Position>
+<Axis>-1.6653345369377348e-16 1 5.5511151231257827e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T501_A-1</Uid>
+</InstancePath>
+<Position>2.9799999999999596 -0.10799999999999921 3.3499999999999548</Position>
+<Axis>1.6653345369377348e-16 -0.99999999999999989 -2.7755575615628914e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Paralelo12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T501_C-1</Uid>
+</InstancePath>
+<Position>2.979999999999956 0.11199999999999966 3.349999999999949</Position>
+<Axis>3.3306690738754696e-16 -1 -5.5511151231257827e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T501_A-1</Uid>
+</InstancePath>
+<Position>2.9799999999999596 0.11000000000000076 3.3499999999999543</Position>
+<Axis>-1.6653345369377348e-16 0.99999999999999989 2.7755575615628914e-16</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concéntrica15">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T501_C-1</Uid>
+</InstancePath>
+<Position>2.9799999999999605 -0.10799999999999876 3.3499999999999543</Position>
+<Axis>-1.6653345369377348e-16 1 5.5511151231257827e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T501_A-1</Uid>
+</InstancePath>
+<Position>2.9799999999999596 -0.10799999999999921 3.3499999999999548</Position>
+<Axis>-1.6653345369377348e-16 0.99999999999999989 2.7755575615628914e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente42">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T501_D-1</Uid>
+</InstancePath>
+<Position>3.3944999999999603 0 3.3499999999999504</Position>
+<Axis>-1 -3.1918911957973251e-16 3.8857805861880479e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T501_C-1</Uid>
+</InstancePath>
+<Position>3.3944999999999999 -8.8817841970012523e-16 3.3499999999999988</Position>
+<Axis>-1 1.1102230246251565e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente57">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T501_D-1</Uid>
+</InstancePath>
+<Position>3.4249999999999603 -0.20000000000000034 3.3499999999999557</Position>
+<Axis>1 3.1918911957973251e-16 -3.8857805861880479e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T501_A-6</Uid>
+</InstancePath>
+<Position>2.5899999999999599 -4.4408920985006262e-16 3.3499999999999548</Position>
+<Axis>-0.99999999999999989 -1.6653345369377348e-16 1.6653345369377348e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica21">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T501_D-1</Uid>
+</InstancePath>
+<Position>3.424999999999959 0 3.3499999999999504</Position>
+<Axis>-1 -3.1918911957973251e-16 3.8857805861880479e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T501_A-6</Uid>
+</InstancePath>
+<Position>2.5899999999999599 -4.4408920985006262e-16 3.3499999999999548</Position>
+<Axis>0.99999999999999989 1.6653345369377348e-16 -1.6653345369377348e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica22">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T501_A-6</Uid>
+</InstancePath>
+<Position>2.9799999999999596 0.10999999999999988 3.3499999999999548</Position>
+<Axis>2.7755575615628914e-16 -1 -2.9143354396410359e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T501_C-6</Uid>
+</InstancePath>
+<Position>2.9799999999999551 0.1120000000000001 3.3499999999999508</Position>
+<Axis>0 -1 -5.5511151231257827e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente59">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T501_A-6</Uid>
+</InstancePath>
+<Position>2.9799999999999596 -0.1080000000000001 3.3499999999999543</Position>
+<Axis>2.7755575615628914e-16 -1 -2.9143354396410359e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T501_C-6</Uid>
+</InstancePath>
+<Position>2.9799999999999596 -0.10799999999999788 3.3499999999999552</Position>
+<Axis>0 1 6.106226635438361e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente62">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T501_C-6</Uid>
+</InstancePath>
+<Position>3.3944999999999999 4.4408920985006262e-16 3.3499999999999996</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T501_D-6</Uid>
+</InstancePath>
+<Position>3.394499999999959 -2.2204460492503131e-16 3.3499999999999495</Position>
+<Axis>-1 -2.7755575615628914e-16 5.5511151231257827e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente64">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T501_D-6</Uid>
+</InstancePath>
+<Position>3.424999999999959 -0.20000000000000018 3.3499999999999539</Position>
+<Axis>1 2.7755575615628914e-16 -5.5511151231257827e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Cabina-2</Uid>
+</InstancePath>
+<Position>-0.00033388185262739345 0.35393770478589204 0.64954340112143871</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica23">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T501_D-6</Uid>
+</InstancePath>
+<Position>3.424999999999959 0 3.3499999999999499</Position>
+<Axis>-1 -2.7755575615628914e-16 5.5511151231257827e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Cabina-2</Uid>
+</InstancePath>
+<Position>-0.00033388185262739345 0.35393770478589204 0.64954340112143871</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente65">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T301_D-1</Uid>
+</InstancePath>
+<Position>-0.30000000000003013 0.42099999999999993 3</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T403-1</Uid>
+</InstancePath>
+<Position>-0.40550000000000086 0.42999999999999994 4.5344156868332517</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Paralelo16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T301_D-1</Uid>
+</InstancePath>
+<Position>-0.30000000000003013 0.42099999999999993 3</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T403-1</Uid>
+</InstancePath>
+<Position>-0.40550000000000086 0.42999999999999994 4.5344156868332517</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concéntrica24">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>T301_D-1</Uid>
+</InstancePath>
+<Position>-0.30000000000003058 0.06399999999999656 3</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>T403-1</Uid>
+</InstancePath>
+<Position>-0.30000000000000826 0.31550000000000006 3.0000000000000009</Position>
+<Axis>0 -1.0000000000000002 -5.5014135168951529e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Cabina" uid="Cabina*:*Predeterminado" version="721">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="Cabina.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>6210.742539956881</Mass>
+<CenterOfMass>0.00011123052221127764 -0.11797941888356694 0.036818695155398533</CenterOfMass>
+<Inertia>10183.074856986517 9569.0566596206318 10370.426287306927 218.79410076428911 -2.0438074885783646 -4.0917641233662705</Inertia>
+</MassProperties>
+<GeometryFile name="Cabina_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.83137254901960778" g="0.80000000000000004" b="0.75686274509803919" a="1"/>
+<Diffuse r="0.58196078431372544" g="0.55999999999999994" b="0.52980392156862743" a="1"/>
+<Specular r="0.041568627450980389" g="0.040000000000000008" b="0.03784313725490196" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="T201_A" uid="T201_A*:*Predeterminado" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="T201_A.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>355.37700809974979</Mass>
+<CenterOfMass>-0.065823278498810589 3.6773684719146584e-05 0.14605573315748629</CenterOfMass>
+<Inertia>32.286884880914513 44.4689054663843 71.452574112379409 0.0015820196081611033 -0.026825847672129321 -0.00086021296168230905</Inertia>
+</MassProperties>
+<GeometryFile name="T201_A_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="T301_A" uid="T301_A*:*Predeterminado" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="T301_A.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>441.14233063575728</Mass>
+<CenterOfMass>0.2852511358616967 -0.0085373279625193983 0.90539982014629194</CenterOfMass>
+<Inertia>181.03876967723573 122.12753908417223 150.18124145501301 1.4395054762851631 -32.179044700461766 -3.3309879325991467</Inertia>
+</MassProperties>
+<GeometryFile name="T301_A_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="T301_B" uid="T301_B*:*Predeterminado" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="T301_B.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>706.95319763939835</Mass>
+<CenterOfMass>0.66423974712148659 0.046219562049586722 2.077875985024332</CenterOfMass>
+<Inertia>248.20297190845852 207.37873439490079 83.380393474183663 -48.567309920912685 -4.0489532057273454 -3.0382517348325644</Inertia>
+</MassProperties>
+<GeometryFile name="T301_B_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="T301_D" uid="T301_D*:*Predeterminado" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="T301_D.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>37.11699979503949</Mass>
+<CenterOfMass>-0.47332554820908723 0.37000000000000005 2.1499999999999697</CenterOfMass>
+<Inertia>9.2010289134625332 9.649860358974923 0.49278568638626569 0 -3.5870433431440777e-14 0</Inertia>
+</MassProperties>
+<GeometryFile name="T301_D_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.80000000000000004" g="0.80000000000000004" b="0.80000000000000004" a="1"/>
+<Diffuse r="0.80000000000000004" g="0.80000000000000004" b="0.80000000000000004" a="1"/>
+<Specular r="0.40000000000000002" g="0.40000000000000002" b="0.40000000000000002" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="T301_E" uid="T301_E*:*Predeterminado" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="T301_E.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.0753058345407913</Mass>
+<CenterOfMass>-0.0038205190077372315 -0.23099999999999993 1.2655378543268241</CenterOfMass>
+<Inertia>0.0098726032838478087 0.25556607391019276 0.24892009925417083 0 0.03147700829020527 0</Inertia>
+</MassProperties>
+<GeometryFile name="T301_E_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="T301_F" uid="T301_F*:*Predeterminado" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="T301_F.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>144.32732731541017</Mass>
+<CenterOfMass>-0.46640163850963196 -0.23100000027577264 1.3252183970164384</CenterOfMass>
+<Inertia>4.0030338286168679 11.416991273749813 11.408232293758756 -2.7832837126040424e-07 0.97328919554778281 -5.5453484183058619e-08</Inertia>
+</MassProperties>
+<GeometryFile name="T301_F_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="T303_C" uid="T303_C*:*Predeterminado" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="T303_C.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>268.9049536163497</Mass>
+<CenterOfMass>-0.66137067869113941 0.13042767814346332 1.4519892527193725</CenterOfMass>
+<Inertia>37.036149688382572 124.82606227617691 143.78265928491368 7.2982631118491366 20.587500179816718 -34.578290228716298</Inertia>
+</MassProperties>
+<GeometryFile name="T303_C_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="T403" uid="T403*:*Predeterminado" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="T403.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>321.69005434036018</Mass>
+<CenterOfMass>1.0269462240281095 0.052210572517887931 3.2378409682343792</CenterOfMass>
+<Inertia>20.827547392620438 218.38631741253238 215.29937597345656 3.1960319145785112 -25.978038800147196 13.372390346192111</Inertia>
+</MassProperties>
+<GeometryFile name="T403_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="T501_A" uid="T501_A*:*Predeterminado" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="T501_A.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>23.517344270570852</Mass>
+<CenterOfMass>2.8224075991462976 -0.012863717936717005 3.3500000150170157</CenterOfMass>
+<Inertia>0.25948955217921743 0.71478068176929987 0.70802478286019654 -4.0401466553187132e-07 4.6890787205918508e-08 0.053177532729079352</Inertia>
+</MassProperties>
+<GeometryFile name="T501_A_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.80000000000000004" g="0.80000000000000004" b="0.80000000000000004" a="1"/>
+<Diffuse r="0.80000000000000004" g="0.80000000000000004" b="0.80000000000000004" a="1"/>
+<Specular r="0.40000000000000002" g="0.40000000000000002" b="0.40000000000000002" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="T501_C" uid="T501_C*:*Predeterminado" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="T501_C.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>57.944443118224036</Mass>
+<CenterOfMass>3.1086026250002741 -0.059078193491949163 3.3500000062825532</CenterOfMass>
+<Inertia>1.9168182496621557 2.1597418272286832 3.0054647491910798 -8.5912312527865892e-08 -5.1117654376571145e-08 -0.5232621574940175</Inertia>
+</MassProperties>
+<GeometryFile name="T501_C_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="T501_D" uid="T501_D*:*Predeterminado" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="T501_D.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.0575817185089109</Mass>
+<CenterOfMass>3.4054585434016977 0 3.3499999999999499</CenterOfMass>
+<Inertia>0.090358412057542331 0.045749378697781728 0.045749378697781715 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="T501_D_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.80000000000000004" g="0.80000000000000004" b="0.80000000000000004" a="1"/>
+<Diffuse r="0.80000000000000004" g="0.80000000000000004" b="0.80000000000000004" a="1"/>
+<Specular r="0.40000000000000002" g="0.40000000000000002" b="0.40000000000000002" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
