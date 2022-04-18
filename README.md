@@ -3,6 +3,8 @@ The repository is created to show results in the convenient form to reprofuce th
 
 *Abstract - In this paper, an identification problem for uncertain nonlinear systems with time-varying state constraints was solved. When designing the identifier, Differential Neural Networks (DNNs) and Barrier Lyapunov Functions (BLFs) techniques were used. The obtained solution requires solving differential continuous-time Riccati equation as well as nonlinear differential equations for the learning laws. In this problem statement, time-dependent state constraints are supposed to be known in advance continuous functions of time. Such type of constraints naturally occurs in different types of mechatronic systems, i.e. a robotic arm system, the behavior of which was identified in the numerical example. 
 
+https://user-images.githubusercontent.com/33436181/163839914-047a1ee7-0226-402f-bc61-ef7789f15ee6.mp4
+
 ## Matlab implementation:
 You have to have the Simulink(Matlab) software with the following packages:
 1. Control System Toolbox
