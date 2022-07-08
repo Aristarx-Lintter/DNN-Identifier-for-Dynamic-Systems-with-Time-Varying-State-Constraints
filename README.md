@@ -14,3 +14,6 @@ You have to have the Simulink(Matlab) software with the following packages:
 5. Simscape Multibody
 6. Simulink
 7. Simulink Control Design
+
+*Use Multilink_arm/DNN_x3D_M_2000iA900L_with_6_rev.slx or -//-rev_21a.sxl file to start the system
+**In case of several problems with Simulink Data workspace files, please, redefine path at <user_folders>/Multilink_arm/x3D_M_2000iA900L_OLGA_DataFile8.m in Modeling -> Design -> Repositories -> Model Workspace
